@@ -1,0 +1,212 @@
+{
+  "signatures": {
+    "r_0000": "(('flatTable', ('categorical', 'entity', 'metric', 'metric')),)",
+    "r_0001": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0002": "(('bars', ('temporal',), ('metric',), ''),)",
+    "r_0003": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0004": "(('lines', ('temporal',), ('metric',), ''),)",
+    "r_0005": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0006": "(('circles', ('metric',)),)",
+    "r_0007": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0008": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0009": "(('lines', ('temporal',), ('metric',), ''),)",
+    "r_0010": "(('lines', ('temporal',), ('metric', 'metric'), 'categorical'),)",
+    "r_0011": "(('bars', ('temporal',), ('metric',), 'metric'),)",
+    "r_0012": "(('lines', ('temporal',), ('metric',), ''),)",
+    "r_0013": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0014": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0015": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0016": "(('lines', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0017": "(('bars', ('temporal',), ('metric',), ''), ('lines', ('temporal',), (), ''))",
+    "r_0018": "(('metric', ('metric',)),)",
+    "r_0019": "(('metric', ('metric',)),)",
+    "r_0020": "(('circles', ('metric',)),)",
+    "r_0021": "(('bars', ('categorical',), ('metric',), ''),)",
+    "r_0022": "(('bars', ('categorical',), ('metric',), ''),)",
+    "r_0023": "(('bars', ('categorical',), ('metric',), ''),)",
+    "r_0024": "(('bars', ('metric',), ('categorical',), 'categorical'),)",
+    "r_0025": "(('flatTable', ('categorical', 'metric', 'metric', 'metric')),)",
+    "r_0026": "(('flatTable', ('categorical', 'metric')),)",
+    "r_0027": "(('bars', ('metric',), ('categorical',), ''),)",
+    "r_0028": "(('flatTable', ('categorical', 'categorical', 'metric', 'metric')),)",
+    "r_0029": "(('flatTable', ('categorical', 'metric')),)",
+    "r_0030": "(('flatTable', ('categorical', 'metric', 'metric', 'metric', 'metric', 'temporal')),)",
+    "r_0031": "(('flatTable', ('metric', 'metric', 'metric', 'metric', 'temporal')),)",
+    "r_0032": "(('pivotTable', ('categorical',), ('categorical', 'temporal'), ('metric', 'metric')),)",
+    "r_0033": "(('pivotTable', ('categorical',), ('temporal',), ('metric',)),)",
+    "r_0034": "(('flatTable', ('metric', 'metric', 'metric', 'metric')),)",
+    "r_0035": "(('flatTable', ('entity', 'metric', 'metric', 'metric')),)",
+    "r_0036": "(('bars', ('temporal',), ('metric',), ''),)",
+    "r_0037": "(('bars', ('temporal', 'categorical'), ('metric',), 'categorical'),)",
+    "r_0038": "(('bars', ('metric',), ('categorical',), ''),)",
+    "r_0039": "(('bars', ('metric',), ('categorical',), 'categorical'),)",
+    "r_0040": "(('lines', ('metric',), ('metric',), 'categorical'),)",
+    "r_0041": "(('circles', ('metric',)),)",
+    "r_0042": "(('lines', ('metric',), ('metric',), 'categorical'),)",
+    "r_0043": "(('lines', ('metric',), ('metric',), ''), ('lines', ('metric',), ('metric',), 'categorical'))",
+    "r_0044": "(('lines', ('metric',), ('metric',), ''), ('lines', ('metric',), ('metric',), 'categorical'))",
+    "r_0045": "(('bars', ('metric',), ('metric',), 'categorical'), ('lines', ('metric',), ('metric',), ''))",
+    "r_0046": "(('metric', ('metric',)),)",
+    "r_0047": "(('bars', ('metric',), ('metric',), ''),)",
+    "r_0048": "(('flatTable', ('categorical', 'categorical', 'categorical', 'metric', 'metric', 'metric')),)",
+    "r_0049": "(('flatTable', ('categorical', 'categorical', 'categorical', 'categorical', 'categorical', 'entity', 'metric', 'metric', 'metric', 'metric')),)",
+    "r_0050": "(('pivotTable', ('categorical', 'categorical'), ('categorical', 'temporal'), ('metric',)),)",
+    "r_0051": "(('pivotTable', ('categorical', 'categorical'), ('temporal',), ('metric',)),)",
+    "r_0052": "(('pivotTable', ('categorical',), ('categorical', 'categorical'), ('metric', 'metric')),)",
+    "r_0053": "(('pivotTable', ('categorical',), ('categorical', 'categorical'), ('metric', 'metric')),)",
+    "r_0054": "(('pivotTable', ('categorical',), ('categorical', 'categorical'), ('metric', 'metric')),)",
+    "r_0055": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0056": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0057": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0058": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0059": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0060": "(('flatTable', ('categorical', 'categorical', 'categorical', 'categorical', 'entity', 'entity', 'metric', 'metric', 'temporal')),)",
+    "r_0061": "(('flatTable', ('categorical', 'categorical', 'categorical', 'entity', 'entity', 'metric', 'metric', 'temporal')),)",
+    "r_0062": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0063": "(('lines', ('temporal',), ('metric', 'metric', 'metric'), 'categorical'),)",
+    "r_0064": "(('lines', ('temporal',), ('metric', 'metric', 'metric'), 'metric'),)",
+    "r_0065": "(('bars', ('temporal',), ('metric',), 'categorical'),)",
+    "r_0066": "(('bars', ('temporal',), ('metric',), 'categorical'),)"
+  },
+  "clusters": {
+    "(('flatTable', ('categorical', 'entity', 'metric', 'metric')),)": [
+      "r_0000"
+    ],
+    "(('lines', ('temporal',), ('metric',), 'categorical'),)": [
+      "r_0001",
+      "r_0005",
+      "r_0008",
+      "r_0014",
+      "r_0015",
+      "r_0016"
+    ],
+    "(('bars', ('temporal',), ('metric',), ''),)": [
+      "r_0002",
+      "r_0036"
+    ],
+    "(('bars', ('temporal',), ('metric',), 'categorical'),)": [
+      "r_0003",
+      "r_0007",
+      "r_0013",
+      "r_0055",
+      "r_0056",
+      "r_0057",
+      "r_0058",
+      "r_0059",
+      "r_0062",
+      "r_0065",
+      "r_0066"
+    ],
+    "(('lines', ('temporal',), ('metric',), ''),)": [
+      "r_0004",
+      "r_0009",
+      "r_0012"
+    ],
+    "(('circles', ('metric',)),)": [
+      "r_0006",
+      "r_0020",
+      "r_0041"
+    ],
+    "(('lines', ('temporal',), ('metric', 'metric'), 'categorical'),)": [
+      "r_0010"
+    ],
+    "(('bars', ('temporal',), ('metric',), 'metric'),)": [
+      "r_0011"
+    ],
+    "(('bars', ('temporal',), ('metric',), ''), ('lines', ('temporal',), (), ''))": [
+      "r_0017"
+    ],
+    "(('metric', ('metric',)),)": [
+      "r_0018",
+      "r_0019",
+      "r_0046"
+    ],
+    "(('bars', ('categorical',), ('metric',), ''),)": [
+      "r_0021",
+      "r_0022",
+      "r_0023"
+    ],
+    "(('bars', ('metric',), ('categorical',), 'categorical'),)": [
+      "r_0024",
+      "r_0039"
+    ],
+    "(('flatTable', ('categorical', 'metric', 'metric', 'metric')),)": [
+      "r_0025"
+    ],
+    "(('flatTable', ('categorical', 'metric')),)": [
+      "r_0026",
+      "r_0029"
+    ],
+    "(('bars', ('metric',), ('categorical',), ''),)": [
+      "r_0027",
+      "r_0038"
+    ],
+    "(('flatTable', ('categorical', 'categorical', 'metric', 'metric')),)": [
+      "r_0028"
+    ],
+    "(('flatTable', ('categorical', 'metric', 'metric', 'metric', 'metric', 'temporal')),)": [
+      "r_0030"
+    ],
+    "(('flatTable', ('metric', 'metric', 'metric', 'metric', 'temporal')),)": [
+      "r_0031"
+    ],
+    "(('pivotTable', ('categorical',), ('categorical', 'temporal'), ('metric', 'metric')),)": [
+      "r_0032"
+    ],
+    "(('pivotTable', ('categorical',), ('temporal',), ('metric',)),)": [
+      "r_0033"
+    ],
+    "(('flatTable', ('metric', 'metric', 'metric', 'metric')),)": [
+      "r_0034"
+    ],
+    "(('flatTable', ('entity', 'metric', 'metric', 'metric')),)": [
+      "r_0035"
+    ],
+    "(('bars', ('temporal', 'categorical'), ('metric',), 'categorical'),)": [
+      "r_0037"
+    ],
+    "(('lines', ('metric',), ('metric',), 'categorical'),)": [
+      "r_0040",
+      "r_0042"
+    ],
+    "(('lines', ('metric',), ('metric',), ''), ('lines', ('metric',), ('metric',), 'categorical'))": [
+      "r_0043",
+      "r_0044"
+    ],
+    "(('bars', ('metric',), ('metric',), 'categorical'), ('lines', ('metric',), ('metric',), ''))": [
+      "r_0045"
+    ],
+    "(('bars', ('metric',), ('metric',), ''),)": [
+      "r_0047"
+    ],
+    "(('flatTable', ('categorical', 'categorical', 'categorical', 'metric', 'metric', 'metric')),)": [
+      "r_0048"
+    ],
+    "(('flatTable', ('categorical', 'categorical', 'categorical', 'categorical', 'categorical', 'entity', 'metric', 'metric', 'metric', 'metric')),)": [
+      "r_0049"
+    ],
+    "(('pivotTable', ('categorical', 'categorical'), ('categorical', 'temporal'), ('metric',)),)": [
+      "r_0050"
+    ],
+    "(('pivotTable', ('categorical', 'categorical'), ('temporal',), ('metric',)),)": [
+      "r_0051"
+    ],
+    "(('pivotTable', ('categorical',), ('categorical', 'categorical'), ('metric', 'metric')),)": [
+      "r_0052",
+      "r_0053",
+      "r_0054"
+    ],
+    "(('flatTable', ('categorical', 'categorical', 'categorical', 'categorical', 'entity', 'entity', 'metric', 'metric', 'temporal')),)": [
+      "r_0060"
+    ],
+    "(('flatTable', ('categorical', 'categorical', 'categorical', 'entity', 'entity', 'metric', 'metric', 'temporal')),)": [
+      "r_0061"
+    ],
+    "(('lines', ('temporal',), ('metric', 'metric', 'metric'), 'categorical'),)": [
+      "r_0063"
+    ],
+    "(('lines', ('temporal',), ('metric', 'metric', 'metric'), 'metric'),)": [
+      "r_0064"
+    ]
+  }
+}

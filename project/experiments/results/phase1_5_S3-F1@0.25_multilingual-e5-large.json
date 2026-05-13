@@ -1,0 +1,43 @@
+{
+  "exp_id": "phase1_5_S3-F1@0.25_multilingual-e5-large",
+  "phase": 1.5,
+  "config": {
+    "strategy": "S3-F1@0.25",
+    "model": "intfloat/multilingual-e5-large",
+    "alpha": 0.25,
+    "format": "F1",
+    "k_top": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.6010802469135803,
+      "recall@5_template_micro": 0.44907407407407407,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.23765432098765432,
+        "b60rhj4luj0y3": 0.48295454545454547,
+        "pzf0mu9kgqz4k": 0.6837121212121212
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.4243827160493827,
+        "T2": 0.45987654320987653,
+        "T3": 0.49382716049382713,
+        "T4": 0.41820987654320985
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.3131578947368421,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.08834586466165413,
+      "T6_recall@5_strict_full": 0.05263157894736842,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T13:45:51.075032+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

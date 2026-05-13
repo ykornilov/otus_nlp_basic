@@ -1,0 +1,5297 @@
+[
+    {
+        "description": "Топ комедийных сериалов 1990х",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "Ссылка"
+                        },
+                        {
+                            "title": "Страны (списком)"
+                        },
+                        {
+                            "title": "Рейтинг",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        },
+                        {
+                            "title": "Число голосов",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Ранг (по рейтингу)"
+                            },
+                            "operation": "LT",
+                            "values": [
+                                "100"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Тип"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Сериал"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Жанр 1"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "комедия"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Число голосов"
+                            },
+                            "operation": "GT",
+                            "values": [
+                                "1000"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Год выпуска"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "1990",
+                                "1991",
+                                "1992",
+                                "1993",
+                                "1994",
+                                "1995",
+                                "1996",
+                                "1997",
+                                "1998",
+                                "1999"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "Рейтинг",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Средний рейтинг сериалов за всю историю",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "Год выпуска"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Рейтинг"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Тип"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Тип"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Сериал"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "В каком году вышло больше всего комедийных сериалов?",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год выпуска"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Число фильмов"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Жанр 1"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "комедия"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Тип"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Сериал"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Количество выпущенных сериалов по годам",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год выпуска"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Число фильмов"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Тип"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Тип"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Сериал"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "У фильмов каких лет рейтинг выше: старых или новых?",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "Год выпуска"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Рейтинг"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Как менялся рейтинг кино по категориям за всю историю?",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "Год выпуска"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Рейтинг"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "* Сколько фильмов вышло в 2025 по жанрам. \n* Какие самые популярные жанры фильмов в 2025?",
+        "recipe": {
+            "datasetId": "omhpbh1k83ao8",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "donut",
+                    "measures": [
+                        {
+                            "title": "Число фильмов"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Тип"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Фильм"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "Год выпуска"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "2025"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Доля поездок в повышенных классах в России в динамике",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column100p",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "extra_tariff_flg"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Russia"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Структура Gmv по тарифам в рублях в Сербии за последний месяц по московскому времени",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "area",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_msk"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Gmv Trips"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "🧾 operational_tariff_class"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Serbia"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Динамика активных клиентов в России  по дням за последний месяц",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "day"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Active Riders"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Russia"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Соотношение средних чеков до и после суржа в Гватемале",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘⚡lcl_order_created_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Avg Fare After Surge"
+                        },
+                        {
+                            "title": "✅ Avg Fare Before Surge"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Гватемала"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "WoW Gmv за последние 3 месяца в динамике в Москве",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Gmv Previous Week",
+                        "formula": "lag([✅ Gmv Trips])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "WoW, %",
+                        "formula": "([✅ Gmv Trips]-[Gmv Previous Week])/[Gmv Previous Week]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "WoW, %"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "WoW, %"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 agglomeration_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Москва"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Динамика  Gmv в месячном скейле по региону Latam за последние полгода\n\n**ВАЖНО**\\\nНе путай метрики Completion Rate (CR) и Completed to Request (СtR )\n\nМетрики Completion Rate нет в датасете, уточни у пользователя, что он имеет в виду",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Gmv Trips"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 region_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "LatAm"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-6M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "доход водителей помесячно суммарно в милионниках рф",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Driver Income"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "🌐 agglomeration_name_ru"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 population_group"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "1M+"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 country_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Russia"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Cравни в динамике долю детского в Э, К, К\\+ в Москве с начала года\n\n**ВАЖНО**\n\nЕсли ты сам рассчитываешь поездки, то всегда учитывай success\\_order\\_flg",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Active Cars Brand",
+                        "formula": "COUNTD_APPROX(IF([success_order_flg] and [🚖 car_sticker_flg],[full_metal_hash],null))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Доля детского",
+                        "formula": "COUNT_IF([child_flg] and [success_order_flg]) / [✅ Trips]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Доля детского"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "🧾 operational_class_code"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🧾 operational_class_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Comfort",
+                                "Comfort+",
+                                "Econom"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 agglomeration_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Москва"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-01-01T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Доля трипов по тарифам в Москве за последние 3 месяца динамике",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Active Cars Brand",
+                        "formula": "COUNTD_APPROX(IF([success_order_flg] and [🚖 car_sticker_flg],[full_metal_hash],null))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Доля детского",
+                        "formula": "COUNT_IF([child_flg] and [success_order_flg]) / [✅ Trips]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "area100p",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "🧾 operational_tariff_class"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 city_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Москва"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Trips",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "сравни в динамике долю оклеенных машин в тарифах Э, К, К\\+ в Москве с начала года",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Active Cars Brand",
+                        "formula": "COUNTD_APPROX(IF([success_order_flg] and [🚖 car_sticker_flg],[full_metal_hash],null))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Доля оклеенных машин",
+                        "formula": "[✅ Active Cars Brand]/[✅ Active Cars]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Доля оклеенных машин"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "🧾 operational_class_code"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🧾 operational_class_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Comfort",
+                                "Comfort+",
+                                "Econom"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 agglomeration_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Москва"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-01-01T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "сравни в динамике долю оклеенных машин в тарифах Э, К, К\\+ в Москве с начала года",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Active Cars Brand",
+                        "formula": "COUNTD_APPROX(IF([success_order_flg] and [🚖 car_sticker_flg],[full_metal_hash],null))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Доля оклеенных машин",
+                        "formula": "[✅ Active Cars Brand]/[✅ Active Cars]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Requests Burnt"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Узбекистан"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "🕘 order_date_local"
+                        }
+                    ],
+                    "y": [],
+                    "y2": [
+                        {
+                            "title": "✅ Request Burnt Share"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Узбекистан"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Трипы по корпоративным поезкам в России YTD",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Межгород",
+                        "formula": "IF([intercity_flg],'Межгород','Остальные тарифы')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/SUM([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "intercity_flg",
+                        "formula": "[🧾 operational_tariff_class]='Intercity'\n\n    -- признак меджгорода"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "min_dt",
+                        "formula": "min([🕘⚡lcl_order_created_dt])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "max_dt",
+                        "formula": "max([🕘⚡lcl_order_created_dt])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "min_date_format",
+                        "formula": "CONCAT(DATEPART([min_dt], 'day'), ' ', \nCASE DATEPART([min_dt], 'month') \n    WHEN 1 THEN 'Jan'\n    WHEN 2 THEN 'Feb'\n    WHEN 3 THEN 'Mar'\n    WHEN 4 THEN 'Apr'\n    WHEN 5 THEN 'May'\n    WHEN 6 THEN 'Jun'\n    WHEN 7 THEN 'Jul'\n    WHEN 8 THEN 'Aug'\n    WHEN 9 THEN 'Sep'\n    WHEN 10 THEN 'Oct'\n    WHEN 11 THEN 'Nov'\n    WHEN 12 THEN 'Dec'\nEND\n, \"'\", RIGHT(STR(DATEPART([min_dt], 'year')), 2)\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "max_date_format",
+                        "formula": "CONCAT(DATEPART([max_dt], 'day'), ' ', \nCASE DATEPART([max_dt], 'month') \n    WHEN 1 THEN 'Jan'\n    WHEN 2 THEN 'Feb'\n    WHEN 3 THEN 'Mar'\n    WHEN 4 THEN 'Apr'\n    WHEN 5 THEN 'May'\n    WHEN 6 THEN 'Jun'\n    WHEN 7 THEN 'Jul'\n    WHEN 8 THEN 'Aug'\n    WHEN 9 THEN 'Sep'\n    WHEN 10 THEN 'Oct'\n    WHEN 11 THEN 'Nov'\n    WHEN 12 THEN 'Dec'\nEND\n, \"'\", RIGHT(STR(DATEPART([max_dt], 'year')), 2)\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Индикатор",
+                        "formula": "COLOR(size([min_date_format],\"12px\"), 'grey')  + ' - ' + COLOR(size([max_date_format],\"12px\"), 'grey')\n+ BR() + \nBOLD(size(str([✅ Corp Trips]), '26px'))"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "✅ Corp Trips"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Россия"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-01-01T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Доля GMV в повышенных классах в Казани за последний месяц",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Межгород",
+                        "formula": "IF([intercity_flg],'Межгород','Остальные тарифы')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/SUM([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "intercity_flg",
+                        "formula": "[🧾 operational_tariff_class]='Intercity'\n\n    -- признак меджгорода"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "min_dt",
+                        "formula": "min([🕘⚡lcl_order_created_dt])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "max_dt",
+                        "formula": "max([🕘⚡lcl_order_created_dt])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "min_date_format",
+                        "formula": "CONCAT(DATEPART([min_dt], 'day'), ' ', \nCASE DATEPART([min_dt], 'month') \n    WHEN 1 THEN 'Jan'\n    WHEN 2 THEN 'Feb'\n    WHEN 3 THEN 'Mar'\n    WHEN 4 THEN 'Apr'\n    WHEN 5 THEN 'May'\n    WHEN 6 THEN 'Jun'\n    WHEN 7 THEN 'Jul'\n    WHEN 8 THEN 'Aug'\n    WHEN 9 THEN 'Sep'\n    WHEN 10 THEN 'Oct'\n    WHEN 11 THEN 'Nov'\n    WHEN 12 THEN 'Dec'\nEND\n, \"'\", RIGHT(STR(DATEPART([min_dt], 'year')), 2)\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "max_date_format",
+                        "formula": "CONCAT(DATEPART([max_dt], 'day'), ' ', \nCASE DATEPART([max_dt], 'month') \n    WHEN 1 THEN 'Jan'\n    WHEN 2 THEN 'Feb'\n    WHEN 3 THEN 'Mar'\n    WHEN 4 THEN 'Apr'\n    WHEN 5 THEN 'May'\n    WHEN 6 THEN 'Jun'\n    WHEN 7 THEN 'Jul'\n    WHEN 8 THEN 'Aug'\n    WHEN 9 THEN 'Sep'\n    WHEN 10 THEN 'Oct'\n    WHEN 11 THEN 'Nov'\n    WHEN 12 THEN 'Dec'\nEND\n, \"'\", RIGHT(STR(DATEPART([max_dt], 'year')), 2)\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Индикатор",
+                        "formula": "COLOR(size([min_date_format],\"12px\"), 'grey')  + ' - ' + COLOR(size([max_date_format],\"12px\"), 'grey')\n+ BR() + \nBOLD(size(str(round([✅ High Tariff Gmv Share]*100, 1)) + '%', '26px'))"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "✅ High Tariff Gmv Share"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 city_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Казань"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Доля трипов в межгороде в России",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Межгород",
+                        "formula": "IF([intercity_flg],'Межгород','Остальные тарифы')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/SUM([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "intercity_flg",
+                        "formula": "[🧾 operational_tariff_class]='Intercity'\n\n    -- признак меджгорода"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pie",
+                    "measures": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Россия"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-03-01T00:00:00.000Z_2026-03-31T00:00:00.000Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Распределение чека по бинам комиссии водителя в Казани за март в экономе\n\n**ВАЖНО - как работать с бинами, которые не определены в датасете**\n\n1. Найди метрику, по которой пользователь просит построить распределение\n\n2. Cоздай дубликат этой метрики, но отменяем для него агрегацию по умолчанию: Агрегация -\\> нет. В результате дубликат нашего поля переместиться в измерения и станет зеленым - `duplicated_field`\n\n3. Создаем вычисляемое поле для бинов:\n\n   `DIV([duplicated_field], [bin_size]) * [bin_size]`\n\n   Значение `bin_size` постарайся подобрать на основе минимального и максимального значения или спроси у пользователя",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Trip Distance Km (no aggregation)",
+                        "formula": "IF([adjusted_distance_duration_flg] AND [success_order_flg],[transporting_distance_km],null)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "✅ Driver Commission (no agg)",
+                        "formula": "IF([currency_lcl_flg],[⚪ driver_commission_w_vat_amt],[⚪ driver_commission_w_vat_amt]*[currency_rate])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "🟠 driver_commission_bin",
+                        "formula": "DIV([✅ Driver Commission (no agg)],50)*50"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🟠 driver_commission_bin"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Avg Fare After Surge"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🧾 operational_class_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Econom"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 agglomeration_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Казань"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-03-01T00:00:00.000Z_2026-03-31T00:00:00.000Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Распределение трипов (поездок)  по значениям суржа в России за последние 3 месяца?\n\nкогда строишь бины, в идеале стоит ставить ограничение по оси X, чтобы попадали 95% значений без выбросов в хвосте",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🟠 effective_surge_rate_bin"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🟠 effective_surge_rate_bin"
+                            },
+                            "operation": "LT",
+                            "values": [
+                                "5"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Россия"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Каково распределение трипов (поездок)  по чеку в тарифной зоне Москвы за последние 3 месяца с шагом 50?\n\nкогда строишь бины, в идеале стоит ставить ограничение по оси X, чтобы попадали 95% значений без выбросов в хвосте",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "money_bin_size",
+                        "default_value": 50
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "🟠 gmv_bin"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🟠 gmv_bin"
+                            },
+                            "operation": "LT",
+                            "values": [
+                                "5000"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐⚡tariff_geo_zone_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "moscow"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Доля поездок по фиксу / таксометру по странам",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/sum([✅ Trips] TOTAL)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar100p",
+                    "x": [
+                        {
+                            "title": "✅ Trips"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "🌐 country_name_en"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "calc_method_code"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "✅ Trips"
+                            },
+                            "operation": "GT",
+                            "values": [
+                                "0"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Trips",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Метрики заказа в тарифной группе Ride Hailing по бинам суржа",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/sum([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "🟠 effective_surge_rate_bin"
+                        },
+                        {
+                            "title": "✅ Trips"
+                        },
+                        {
+                            "title": "✅ Avg Fare After Surge"
+                        },
+                        {
+                            "title": "✅ Avg Fare Before Surge"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🧾 operational_group_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Ride-Hailing"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Распределение поездок по тарифам в Казани для водителей, максимальный доступный класс которых - комфорт",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "🧾 operational_class_code"
+                        },
+                        {
+                            "title": "✅ Trips",
+                            "bar": {
+                                "colorType": "one-color",
+                                "palette": "neutral20"
+                            }
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "👨‍✈️ executor_max_operational_class_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Comfort"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 agglomeration_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Казань"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-6M___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Trips",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Топ типов оплаты по пользовательским отменам в Азербайджане",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "✅ Rider Cancel Share"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "request_payment_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Азербайджан"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-3M___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Rider Cancel Share",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Распределение заказов по приложениям для бренда Yandex",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/sum([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "% Requests",
+                        "formula": "[✅ Requests]/sum([✅ Requests] TOTAL)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "brand_name"
+                        },
+                        {
+                            "title": "app_platform_name"
+                        },
+                        {
+                            "title": "% Requests",
+                            "bar": {
+                                "colorType": "one-color",
+                                "palette": "neutral20"
+                            }
+                        },
+                        {
+                            "title": "✅ Requests"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "brand_name"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "yandex"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Requests",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "какое количество клиентов платили кэшом в странах СНГ?",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "day"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "🌐 country_name_ru"
+                        },
+                        {
+                            "title": "✅ Active Riders",
+                            "bar": {
+                                "colorType": "one-color",
+                                "palette": "neutral20"
+                            }
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🌐 country_name_ru"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Россия",
+                                "Беларусь",
+                                "Казахстан",
+                                "Армения",
+                                "Азербайджан",
+                                "Грузия",
+                                "Кыргызстан",
+                                "Молдова",
+                                "Таджикистан",
+                                "Узбекистан"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "fact_payment_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "cash"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "GTE",
+                            "values": [
+                                "__relative_-1M"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "✅ Active Riders",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Активные клиенты по тарифам за последний месяц \\+ Month over Month (MoM)\n\n\\\n**\\[Важно\\]** \\\nвнимательно  следи за датами, которые ты ставишь - если тебя просят конкретный период, то даты должны быть ровно такими, чтобы сделать расчет, не более\n\n**\\[Важно\\]**\\\nИспользуй красные / зеленые  цвета для отклонений MoM, WoW и тд\n\n**\\[Важно\\]**\\\nК процентным метрикам применяй тип форматирования процент с 1 знаком после запятой",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Активные клиенты",
+                        "formula": "COUNTD_APPROX(IF([success_order_flg], [🙋🏻‍♂️ united_user_phone_hash], null))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM абсолютное",
+                        "formula": "[Активные клиенты] - [Активные клиенты предыдущий месяц]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Месяц заказа",
+                        "formula": "DATETRUNC([🕘⚡lcl_order_created_dt], 'month')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM процентное",
+                        "formula": "([Активные клиенты] - [Активные клиенты предыдущий месяц]) / [Активные клиенты предыдущий месяц]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Активные клиенты предыдущий месяц",
+                        "formula": "LAG([Активные клиенты] WITHIN max([🧾 operational_tariff_class]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Фильтр на последний месяц",
+                        "formula": "-- если пользователь просит текущий месяц, то оконным вычислением ставим фильтр только на него в конце \n\nmax([Месяц заказа])=max(max([Месяц заказа]) TOTAL)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "🧾 operational_tariff_class"
+                        },
+                        {
+                            "title": "Месяц заказа"
+                        },
+                        {
+                            "title": "Активные клиенты",
+                            "bar": {
+                                "colorType": "one-color",
+                                "palette": "neutral20"
+                            }
+                        },
+                        {
+                            "title": "Активные клиенты предыдущий месяц"
+                        },
+                        {
+                            "title": "Изменение MoM абсолютное",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        },
+                        {
+                            "title": "Изменение MoM процентное",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Фильтр на последний месяц"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "true"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-02-01T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "🧾 operational_tariff_class",
+                            "direction": "ASC"
+                        },
+                        {
+                            "title": "Месяц заказа",
+                            "direction": "ASC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "MoM Gmv в регионе Latam в мае",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Месяц заказа",
+                        "formula": "DATETRUNC([🕘⚡lcl_order_created_dt], 'month')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM абсолютное",
+                        "formula": "[✅ Gmv Trips] - [Gmv предыдущий месяц]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM процентное",
+                        "formula": "([✅ Gmv Trips] - [Gmv предыдущий месяц]) / [Gmv предыдущий месяц]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Gmv предыдущий месяц",
+                        "formula": "LAG([✅ Gmv Trips])"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "Месяц заказа"
+                        },
+                        {
+                            "title": "✅ Gmv Trips",
+                            "bar": {
+                                "colorType": "one-color",
+                                "palette": "neutral20"
+                            }
+                        },
+                        {
+                            "title": "Gmv предыдущий месяц"
+                        },
+                        {
+                            "title": "Изменение MoM абсолютное",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        },
+                        {
+                            "title": "Изменение MoM процентное",
+                            "bar": {
+                                "colorType": "two-color"
+                            }
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Gmv предыдущий месяц"
+                            },
+                            "operation": "ISNOTNULL",
+                            "values": []
+                        },
+                        {
+                            "field": {
+                                "title": "🌐 region_name_en"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "LatAm"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-04-01T00:00:00.000Z_2026-05-31T00:00:00.000Z"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "Месяц заказа",
+                            "direction": "ASC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Week over Week поездок за последние 3 недели в разрезе брендов",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM абсолютное",
+                        "formula": "[Поездки] - [Поездки предыдущая неделя]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM процентное",
+                        "formula": "([Поездки] - [Поездки предыдущая неделя]) / [Поездки предыдущая неделя]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Неделя заказа",
+                        "formula": "DATETRUNC([🕘⚡lcl_order_created_dt], 'week')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Поездки",
+                        "formula": "[✅ Trips]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-82644710-22de-11f1-a595-ed96cdebf198",
+                        "formula": "[✅ Trips]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Поездки предыдущая неделя",
+                        "formula": "LAG([Поездки] WITHIN max([brand_name]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Фильтр на последние 3 недели",
+                        "formula": "DATEADD(max([Неделя заказа]),'week',3)> max(max([Неделя заказа]) TOTAL)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "columns": [
+                        {
+                            "title": "Неделя заказа"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "brand_name"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "title-82644710-22de-11f1-a595-ed96cdebf198"
+                        },
+                        {
+                            "title": "Изменение MoM процентное"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Фильтр на последние 3 недели"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "true"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-02-23T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "Неделя заказа",
+                            "direction": "ASC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Week over Week поездок за последние 3 недели в разрезе брендов ( альтернативный вариант в виде heatmap)",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM абсолютное",
+                        "formula": "[Поездки] - [Поездки предыдущая неделя]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Изменение MoM процентное",
+                        "formula": "([Поездки] - [Поездки предыдущая неделя]) / [Поездки предыдущая неделя]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Неделя заказа",
+                        "formula": "DATETRUNC([🕘⚡lcl_order_created_dt], 'week')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Поездки",
+                        "formula": "[✅ Trips]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Поездки предыдущая неделя",
+                        "formula": "LAG([Поездки] WITHIN max([fact_payment_type]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Фильтр на последние 3 недели",
+                        "formula": "DATEADD(max([Неделя заказа]),'week',3)> max(max([Неделя заказа]) TOTAL)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "columns": [
+                        {
+                            "title": "Неделя заказа"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "fact_payment_type"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Изменение MoM процентное"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Фильтр на последние 3 недели"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "true"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2026-02-23T00:00:00.000Z___relative_-0d"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "Неделя заказа",
+                            "direction": "ASC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Статистика по поездкам, эффективный сурж которых больше либо равен 3",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/sum([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-c9872c00-212d-11f1-a8b7-e5f1912ebbd8",
+                        "formula": "COUNT_IF([success_order_flg])"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "title-c9872c00-212d-11f1-a8b7-e5f1912ebbd8"
+                        },
+                        {
+                            "title": "✅ Gmv Trips"
+                        },
+                        {
+                            "title": "✅ Avg Fare Before Surge"
+                        },
+                        {
+                            "title": "✅ Avg Fare After Surge"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "effective_surge_rate"
+                            },
+                            "operation": "GTE",
+                            "values": [
+                                "3"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🧾 basic_class_code"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Combo"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Чек до и после суржа для заказов с бином суржа = 0.4",
+        "recipe": {
+            "datasetId": "33h8c3n5nbien",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "scale_name",
+                        "default_value": "month"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Trips, %",
+                        "formula": "[✅ Trips]/sum([✅ Trips] TOTAL)"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "currency_param",
+                        "default_value": "RUB"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "order_id"
+                        },
+                        {
+                            "title": "effective_surge_rate"
+                        },
+                        {
+                            "title": "✅ Avg Fare After Surge"
+                        },
+                        {
+                            "title": "✅ Avg Fare Before Surge"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "🟠 effective_surge_rate_bin"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "0.4"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "🕘⚡lcl_order_created_dt"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1M___relative_-0d"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Один показатель",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С группировкой по измерению",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        },
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С группировкой, показатели",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        },
+                        {
+                            "title": "Скидка, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С накоплением по измерению",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С накоплением, показатели",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        },
+                        {
+                            "title": "Скидка, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Один показатель",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        }
+                    ],
+                    "filters": [],
+                    "sorting": [
+                        {
+                            "title": "Продажа, ₽",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "С группировкой по измерению",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С группировкой, показатели",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "Продажа, ₽"
+                        },
+                        {
+                            "title": "Скидка, ₽"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С накоплением по измерению",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-92618ee0-158a-11ec-a46d-0726b01f90ab",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "title-92618ee0-158a-11ec-a46d-0726b01f90ab"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "С накоплением, показатели",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-92618ee0-158a-11ec-a46d-0726b01f90ab",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar",
+                    "x": [
+                        {
+                            "title": "title-92618ee0-158a-11ec-a46d-0726b01f90ab"
+                        },
+                        {
+                            "title": "Скидка, ₽"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Нормированная линейчатая диаграмма",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "bar100p",
+                    "x": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Клиент - пол"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Нормированная столбчатая диаграмма",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column100p",
+                    "x": [
+                        {
+                            "title": "Год заявки"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Доставка - тип"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Нормированная диаграмма с областями",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3",
+                        "formula": "datetrunc(DATE([Дата заявки]), \"month\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "area100p",
+                    "x": [
+                        {
+                            "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Диаграмма с областями",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3",
+                        "formula": "datetrunc(DATE([Дата заявки]), \"month\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "area",
+                    "x": [
+                        {
+                            "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Круговая диаграмма",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Подкатегория продукта - сумма",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pie",
+                    "measures": [
+                        {
+                            "title": "Число заявок"
+                        }
+                    ],
+                    "filters": [],
+                    "sorting": [
+                        {
+                            "title": "Число заявок"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Кольцевая диаграмма",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "donut",
+                    "measures": [
+                        {
+                            "title": "Число заявок"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Группировка по измерению, одна ось Y",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3",
+                        "formula": "datetrunc(DATE([Дата заявки]), \"month\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Два показателя, две разные оси Y",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3",
+                        "formula": "datetrunc(DATE([Дата заявки]), \"month\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-13508890-0f09-11ec-b3fd-4d01a36941f3"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y2": [
+                        {
+                            "title": "Среднее число продуктов в заказе"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Комбинированная с линией плана",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Число клиентов"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Продажа, ₽"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc",
+                        "formula": "datetrunc([Дата доставки], \"week\")"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Среднее по категориям",
+                        "formula": "avg(SUM([Продажа, ₽] INCLUDE [Продукт - категория]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "План по категориям",
+                        "formula": "any(80000)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "План по категориям"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Комбинированная с линией AVG",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Число клиентов"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Продажа, ₽"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc",
+                        "formula": "datetrunc([Дата доставки], \"week\")"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Среднее по категориям",
+                        "formula": "avg(SUM([Продажа, ₽] INCLUDE [Продукт - категория]))"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Среднее по категориям"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Комбинированная: линии и столбцы",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Число клиентов"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Продажа, ₽"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Среднее по категориям",
+                        "formula": "avg(SUM([Продажа, ₽] INCLUDE [Продукт - категория]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "План по категориям",
+                        "formula": "any(80000)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Продажи + скидки",
+                        "formula": "[Продажа, ₽] + [Скидка, ₽]"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc",
+                        "formula": "datetrunc([Дата доставки], \"month\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "title-8aee5b80-21fe-11ed-8819-07802ff85abc"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажи + скидки"
+                        }
+                    ],
+                    "y2": [],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Средняя продажа",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Средний чек индикатор",
+                        "formula": "if([Средний чек]>2200, CONCAT(\"✔️\",STR(ROUND([Средний чек]))),CONCAT(\"🔻\",STR(round([Средний чек])))) "
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-b68a67f0-4dc6-11ec-bb4b-cdbbdc67fcf2",
+                        "formula": "if([Средний чек]>2200, CONCAT(\"✔️\",STR(ROUND([Средний чек]))),CONCAT(\"🔻\",STR(round([Средний чек])))) "
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "title-b68a67f0-4dc6-11ec-bb4b-cdbbdc67fcf2"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Сплит в чарте",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Число клиентов"
+                    }
+                },
+                {
+                    "action": "update_field",
+                    "field": {
+                        "title": "Продажа, ₽"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "Среднее по категориям",
+                        "formula": "avg(SUM([Продажа, ₽] INCLUDE [Продукт - категория]))"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "План по категориям",
+                        "formula": "any(80000)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-762b9f50-2474-11ed-9fca-299e5a0fd66b",
+                        "formula": "datetrunc([Дата доставки], \"week\")"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "title-762b9f50-2474-11ed-9fca-299e5a0fd66b"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "Доставка - округ"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "Дата доставки"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval_2021-08-23T00:00:00.000Z_2022-08-22T23:59:59.999Z"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Заголовок 1",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "Число клиентов"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "за все время",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-5740bd90-158f-11ec-b1f5-4f4499ec564c",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "title-5740bd90-158f-11ec-b1f5-4f4499ec564c"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Минимум",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "metric",
+                    "measures": [
+                        {
+                            "title": "Число магазинов"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "таблица-2",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Продукт - категория"
+                        },
+                        {
+                            "title": "Продукт - бренд"
+                        },
+                        {
+                            "title": "Продажа, ₽"
+                        },
+                        {
+                            "title": "Число заявок"
+                        },
+                        {
+                            "title": "Число клиентов",
+                            "bar": {
+                                "colorType": "gradient",
+                                "palette": "orange-yellow"
+                            }
+                        }
+                    ],
+                    "filters": [],
+                    "sorting": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Таблица с фиксированным первым столбцом",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Продукт - категория"
+                        },
+                        {
+                            "title": "Продукт - бренд"
+                        },
+                        {
+                            "title": "Магазин - адрес"
+                        },
+                        {
+                            "title": "Продажа, ₽"
+                        },
+                        {
+                            "title": "Число заявок"
+                        },
+                        {
+                            "title": "Число клиентов",
+                            "bar": {
+                                "colorType": "gradient",
+                                "palette": "orange-yellow"
+                            }
+                        },
+                        {
+                            "title": "Клиент - статус"
+                        },
+                        {
+                            "title": "Доставка - округ"
+                        },
+                        {
+                            "title": "Средний чек"
+                        }
+                    ],
+                    "filters": [],
+                    "sorting": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Таблица",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "colors": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Доставка - тип"
+                        },
+                        {
+                            "title": "Год заявки"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "Продукт - категория"
+                        },
+                        {
+                            "title": "Продукт - бренд"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Сводная таблица с фиксированным столбцом",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "colors": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Месяц заявки"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "Продукт - категория"
+                        },
+                        {
+                            "title": "Продукт - бренд"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Размер L (Wizard)",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "colors": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "Магазин"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Число клиентов"
+                        },
+                        {
+                            "title": "Средний чек"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Размер M (Wizard)",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "colors": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "Магазин"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Число клиентов"
+                        },
+                        {
+                            "title": "Средний чек"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Размер S (Wizard)",
+        "recipe": {
+            "datasetId": "b60rhj4luj0y3",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "pivotTable",
+                    "colors": [
+                        {
+                            "title": "Продажа, ₽"
+                        }
+                    ],
+                    "columns": [
+                        {
+                            "title": "Продукт - подкатегория"
+                        },
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "rows": [
+                        {
+                            "title": "Магазин"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Число клиентов"
+                        },
+                        {
+                            "title": "Средний чек"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Точечная диаграмма",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "scatter",
+                    "x": [
+                        {
+                            "title": "Средний чек"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "Число заявок"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Продукт - категория"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Древовидная диаграмма",
+        "recipe": {
+            "datasetId": "",
+            "datasetUpdates": [
+                {
+                    "action": "update_field",
+                    "field": {}
+                }
+            ],
+            "layers": [
+                {
+                    "type": "treemap",
+                    "colors": [
+                        {
+                            "title": "Скидка, ₽"
+                        }
+                    ],
+                    "measures": [
+                        {
+                            "title": "Число клиентов"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "errors by action",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "service_action",
+                        "formula": "CONCAT([service], '_', [action])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "service_with_action",
+                        "formula": "[service] + \" / \" + [action]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "service_with_action"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "NIN",
+                            "values": [
+                                "fetchData",
+                                "getDistinctsApiV2",
+                                "getPreview"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service_action"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "gateway_self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+10h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "527",
+                                "530"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "errors by status codes",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "responseStatus"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+10h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "527",
+                                "530"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "all requests by action",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "action"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+10h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "errors by hosts",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "host"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+10h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "527",
+                                "530"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "data errors by action",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "service_with_action",
+                        "formula": "[service] + \" / \" + [action]"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "service_with_action"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "fetchData",
+                                "getDistinctsApiV2",
+                                "getPreview"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+10h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "527",
+                                "530"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "yateam prod errors - control plane",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "jaeger_url",
+                        "formula": "URL(\n    CONCAT('https://jaeger.yt.yandex-team.ru/charts/search?service=datalens&tags=%7B%22request_id%22%3A%22', [requestId], '%22%7D'),\n    'jaeger'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "host_ssh",
+                        "formula": "URL(\n    CONCAT('https://mc.resure.ui.yandex.net/ssh-jump?platform=qloud&host=', [host]),\n    [host]\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-be8d3ee0-db26-11eb-8a06-f956ed6d5d9e",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-c2bdc930-db26-11eb-8a06-f956ed6d5d9e",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "charts_logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=api&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "trace",
+                        "formula": "URL(\n    CONCAT('https://t.yandex-team.ru/search?project=charts&service=datalens&lookback=3h&tags=%7B%22request_id%22%3A%22', [requestId], '%22%7D'),\n    'trace'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "charts logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=api&from=now-3h&to=now&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "ui logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=frontend&from=now-3h&to=now&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "service_action",
+                        "formula": "CONCAT([service], '_', [action])"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "request id",
+                        "formula": "TOOLTIP(\n    MARKUP(COLOR(BOLD(\"•\"), \"rgb(120, 104, 244)\"), \"  \", [requestId]),\n    MARKUP(\n        URL(\n            CONCAT(\n                \"https://monitoring.yandex-team.ru/projects/charts/logs?query=%7Bproject%20%3D%20%22charts%22%2C%20cluster%20%3D%20%22\",\n                \"production\",\n                \"%22%2C%20service%20%3D%20%22\",\n                \"frontend|api|us-api\",\n                \"%22%2C%20deploy.unit%20%3D%20%22\",\n                \"frontend|api|us-api\",\n                \"%22%2C%20meta.req.id%20%3D%20%22\",\n                [requestId],\n                \"%22%7D&groupByField=level&chartType=line&from=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",-5))*1000),\n                \"&to=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",5))*1000)\n            ),\n            SIZE(\"🪵 Перейти к логам\", \"14px\")\n        ),\n        BR(),\n        BR(),\n        URL(\n            CONCAT(\n                \"https://monitoring.yandex-team.ru/projects/datalens/logs?from=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",-5))*1000),\n                \"&to=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",5))*1000),\n                \"&query=%7Bproject%20%3D%20%22datalens%22%2C%20service%20%3D%20%22dataset-api%22%2C%20deploy.stage%20%3D%20%22datalens-back-int-prod%22%2C%20deploy.unit%20%3D%20%22dataset-api%22%2C%20meta.context.parent_request_id%20%3D%20%22\",\n                [requestId],\n                \"%22%7D\"\n            ),\n            SIZE(\"🪵 Перейти к backend логам\", \"14px\")\n        )\n    )\n)\n"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "datetime"
+                        },
+                        {
+                            "title": "service"
+                        },
+                        {
+                            "title": "action"
+                        },
+                        {
+                            "title": "title-be8d3ee0-db26-11eb-8a06-f956ed6d5d9e"
+                        },
+                        {
+                            "title": "title-c2bdc930-db26-11eb-8a06-f956ed6d5d9e"
+                        },
+                        {
+                            "title": "traceIdUrl"
+                        },
+                        {
+                            "title": "zone"
+                        },
+                        {
+                            "title": "hostShort"
+                        },
+                        {
+                            "title": "request id"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "NIN",
+                            "values": [
+                                "fetchData",
+                                "getDistinctsApiV2",
+                                "getPreview"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "charts-lag-check"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service_action"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self_gateway"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-12h___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "423",
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "530"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "datetime"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "yateam prod errors - data plane",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "jaeger_url",
+                        "formula": "URL(\n    CONCAT('https://jaeger.yt.yandex-team.ru/charts/search?service=datalens&tags=%7B%22request_id%22%3A%22', [requestId], '%22%7D'),\n    'jaeger'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "host_ssh",
+                        "formula": "URL(\n    CONCAT('https://mc.resure.ui.yandex.net/ssh-jump?platform=qloud&host=', [host]),\n    [host]\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-be8d3ee0-db26-11eb-8a06-f956ed6d5d9e",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-c2bdc930-db26-11eb-8a06-f956ed6d5d9e",
+                        "formula": ""
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "charts_logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=api&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "trace",
+                        "formula": "URL(\n    CONCAT('https://t.yandex-team.ru/search?project=charts&service=datalens&lookback=3h&tags=%7B%22request_id%22%3A%22', [requestId], '%22%7D'),\n    'trace'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "charts logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=api&from=now-3h&to=now&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "ui logs",
+                        "formula": "URL(\n    CONCAT('https://deploy.yandex-team.ru/stages/charts-datalens-production/logs?deploy-unit=frontend&from=now-3h&to=now&query=message%3D', [requestId]),\n    'logs'\n)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "request id",
+                        "formula": "TOOLTIP(\n    MARKUP(COLOR(BOLD(\"•\"), \"rgb(120, 104, 244)\"), \"  \", [requestId]),\n    MARKUP(\n        URL(\n            CONCAT(\n                \"https://monitoring.yandex-team.ru/projects/charts/logs?query=%7Bproject%20%3D%20%22charts%22%2C%20cluster%20%3D%20%22\",\n                \"production\",\n                \"%22%2C%20service%20%3D%20%22\",\n                \"frontend|api|us-api\",\n                \"%22%2C%20deploy.unit%20%3D%20%22\",\n                \"frontend|api|us-api\",\n                \"%22%2C%20meta.req.id%20%3D%20%22\",\n                [requestId],\n                \"%22%7D&groupByField=level&chartType=line&from=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",-5))*1000),\n                \"&to=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",5))*1000)\n            ),\n            SIZE(\"🪵 Перейти к логам\", \"14px\")\n        ),\n        BR(),\n        BR(),\n        URL(\n            CONCAT(\n                \"https://monitoring.yandex-team.ru/projects/datalens/logs?from=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",-5))*1000),\n                \"&to=\",\n                STR(INT(DATEADD(DATETIME([timestamp]),\"minute\",5))*1000),\n                \"&query=%7Bproject%20%3D%20%22datalens%22%2C%20service%20%3D%20%22dataset-data-api%22%2C%20deploy.stage%20%3D%20%22datalens-back-int-prod%22%2C%20deploy.unit%20%3D%20%22dataset-data-api%22%2C%20meta.context.parent_request_id%20%3D%20%22\",\n                [requestId],\n                \"%22%7D\"\n            ),\n            SIZE(\"🪵 Перейти к backend логам\", \"14px\")\n        )\n    )\n)\n"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "datetime"
+                        },
+                        {
+                            "title": "service"
+                        },
+                        {
+                            "title": "action"
+                        },
+                        {
+                            "title": "title-be8d3ee0-db26-11eb-8a06-f956ed6d5d9e"
+                        },
+                        {
+                            "title": "title-c2bdc930-db26-11eb-8a06-f956ed6d5d9e"
+                        },
+                        {
+                            "title": "request id"
+                        },
+                        {
+                            "title": "traceIdUrl"
+                        },
+                        {
+                            "title": "host"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "fetchData",
+                                "getDistinctsApiV2",
+                                "getPreview"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "charts-lag-check"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "NE",
+                            "values": [
+                                "self"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-12h___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "423",
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "530"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "datetime"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Int Prod Median",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "request_time_p50"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "action"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Int Prod Quantiles",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "request_time_p90"
+                        },
+                        {
+                            "title": "request_time_p75"
+                        },
+                        {
+                            "title": "request_time_p50"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Int Prod Charts Run Median",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [],
+            "layers": [
+                {
+                    "type": "area",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "request_time_p50"
+                        },
+                        {
+                            "title": "request_time_p75"
+                        },
+                        {
+                            "title": "request_time_p90"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "Measure Values"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Int prod errors by source",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "service"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+6h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500",
+                                "501",
+                                "502",
+                                "503",
+                                "504",
+                                "530"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "fetchData"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "int prod bi 500",
+        "recipe": {
+            "datasetId": "pzf0mu9kgqz4k",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b",
+                        "formula": ""
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "column",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "title-bc267ff0-6726-11eb-9630-b55eb69f7a5b"
+                        }
+                    ],
+                    "colors": [
+                        {
+                            "title": "service"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "datetime"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_+6h"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "responseStatus"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "action"
+                            },
+                            "operation": "EQ",
+                            "values": [
+                                "fetchData"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "bi",
+                                "bi_datasets",
+                                "bi_connections"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "us int prod dls timings",
+        "recipe": {
+            "datasetId": "w8nnpr3kdsyko",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "response_time_p95",
+                        "formula": "quantile([requestTime], 0.95)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "response_time_p90",
+                        "formula": "quantile([requestTime], 0.9)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "response_time_p80",
+                        "formula": "quantile([requestTime], 0.8)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "response_time_p50",
+                        "formula": "quantile([requestTime], 0.50)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "response_time_p99",
+                        "formula": "quantile([requestTime], 0.99)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "timestamp_msk",
+                        "formula": "dateadd([timestamp], 'hour', 3)"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "ts_1m",
+                        "formula": "datetrunc([timestamp_msk], 'minute', 1)"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "only_time_dt"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "response_time_p50"
+                        },
+                        {
+                            "title": "response_time_p80"
+                        },
+                        {
+                            "title": "response_time_p90"
+                        },
+                        {
+                            "title": "response_time_p95"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "split": [
+                        {
+                            "title": "only_date_type"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "timestamp_msk"
+                            },
+                            "operation": "BETWEEN",
+                            "values": [
+                                "__interval___relative_-1w___relative_-0d"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "service"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "dls"
+                            ]
+                        },
+                        {
+                            "field": {
+                                "title": "only_date_type"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "Cегодня",
+                                "Вчера",
+                                "Неделя"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Internal Dash API Errors",
+        "recipe": {
+            "datasetId": "rmcxc5tz38foc",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "4**",
+                        "formula": "COUNT_IF([status] >= 400 AND [status] < 500)\n"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "5**",
+                        "formula": "COUNT_IF([status] >= 500)\n"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "line",
+                    "x": [
+                        {
+                            "title": "grouped_datetime"
+                        }
+                    ],
+                    "y": [
+                        {
+                            "title": "4**"
+                        },
+                        {
+                            "title": "5**"
+                        }
+                    ],
+                    "y2": [],
+                    "colors": [
+                        {
+                            "title": "Measure Names"
+                        }
+                    ],
+                    "filters": []
+                }
+            ]
+        }
+    },
+    {
+        "description": "Internal Dash API 500 Errors",
+        "recipe": {
+            "datasetId": "rmcxc5tz38foc",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "user",
+                        "formula": "USER_INFO([userId], 'email')"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "datetime"
+                        },
+                        {
+                            "title": "status"
+                        },
+                        {
+                            "title": "requestIdUrl"
+                        },
+                        {
+                            "title": "traceIdUrl"
+                        },
+                        {
+                            "title": "handlerName"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "status"
+                            },
+                            "operation": "IN",
+                            "values": [
+                                "500"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "datetime",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "Internal Dash API Errors Top Users",
+        "recipe": {
+            "datasetId": "rmcxc5tz38foc",
+            "datasetUpdates": [
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "user",
+                        "formula": "USER_INFO([userId], 'email')"
+                    }
+                },
+                {
+                    "action": "add_field",
+                    "field": {
+                        "title": "COUNT",
+                        "formula": "COUNT([status])"
+                    }
+                }
+            ],
+            "layers": [
+                {
+                    "type": "flatTable",
+                    "columns": [
+                        {
+                            "title": "user"
+                        },
+                        {
+                            "title": "COUNT"
+                        }
+                    ],
+                    "filters": [
+                        {
+                            "field": {
+                                "title": "COUNT"
+                            },
+                            "operation": "GT",
+                            "values": [
+                                "50"
+                            ]
+                        }
+                    ],
+                    "sorting": [
+                        {
+                            "title": "COUNT",
+                            "direction": "DESC"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

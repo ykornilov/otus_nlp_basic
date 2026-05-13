@@ -1,0 +1,334 @@
+{"query_id": "q_0000", "query": "Лучшие комедии-сериалы девяностых годов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0000"}
+{"query_id": "q_0001", "query": "Покажи списком топ комедийных сериалов 90-х", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0000"}
+{"query_id": "q_0002", "query": "Сериалы жанра комедия с годом выпуска 1990–1999, отсортированные по рейтингу", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0000"}
+{"query_id": "q_0003", "query": "Что посмотреть из старых смешных сериалов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0000"}
+{"query_id": "q_0004", "query": "Как менялся средний рейтинг сериалов с годами", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0001"}
+{"query_id": "q_0005", "query": "Покажи линией динамику рейтинга сериалов по годам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0001"}
+{"query_id": "q_0006", "query": "Рейтинг сериалов в зависимости от года выпуска", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0001"}
+{"query_id": "q_0007", "query": "Сериалы стали лучше или хуже со временем", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0001"}
+{"query_id": "q_0008", "query": "Год с максимальным выпуском комедийных сериалов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0002"}
+{"query_id": "q_0009", "query": "Покажи столбиками распределение комедий-сериалов по годам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0002"}
+{"query_id": "q_0010", "query": "Количество выпущенных сериалов жанра комедия по годам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0002"}
+{"query_id": "q_0011", "query": "Когда был пик выхода комедий-сериалов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0002"}
+{"query_id": "q_0012", "query": "Сколько сериалов выходило ежегодно", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0003"}
+{"query_id": "q_0013", "query": "Столбиковая диаграмма числа сериалов по годам с разбивкой по типу", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0003"}
+{"query_id": "q_0014", "query": "Количество сериалов по годам, разбитое по типу", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0003"}
+{"query_id": "q_0015", "query": "Как менялось ежегодное число сериалов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0003"}
+{"query_id": "q_0016", "query": "У какого года выпуска фильмы с лучшим рейтингом", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0004"}
+{"query_id": "q_0017", "query": "Линейный график рейтинга фильмов по годам выпуска", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0004"}
+{"query_id": "q_0018", "query": "Зависимость рейтинга от года выпуска", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0004"}
+{"query_id": "q_0019", "query": "Старые фильмы лучше новых или наоборот", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0004"}
+{"query_id": "q_0020", "query": "Динамика рейтинга кино по типам контента за всю историю", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0005"}
+{"query_id": "q_0021", "query": "Покажи линией изменение рейтинга по категориям контента", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0005"}
+{"query_id": "q_0022", "query": "Рейтинг по году выпуска в разрезе типа (фильм / сериал)", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0005"}
+{"query_id": "q_0023", "query": "Как со временем менялась оценка разного кино", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0005"}
+{"query_id": "q_0024", "query": "Распределение фильмов 2025 года по жанрам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T1", "source_recipe_id": "r_0006"}
+{"query_id": "q_0025", "query": "Покажи кругом долю жанров среди фильмов 2025", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T2", "source_recipe_id": "r_0006"}
+{"query_id": "q_0026", "query": "Сколько фильмов вышло в 2025 году в каждом жанре", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T3", "source_recipe_id": "r_0006"}
+{"query_id": "q_0027", "query": "Самые популярные жанры свежих фильмов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T4", "source_recipe_id": "r_0006"}
+{"query_id": "q_0028", "query": "Динамика доли поездок в высоких тарифах в РФ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0007"}
+{"query_id": "q_0029", "query": "Покажи 100% столбиками долю поездок по тарифам в России", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0007"}
+{"query_id": "q_0030", "query": "Доля поездок с extra_tariff_flg в России за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0007"}
+{"query_id": "q_0031", "query": "Как меняется соотношение премиум и обычных поездок в России", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0007"}
+{"query_id": "q_0032", "query": "Структура GMV по тарифным классам в Сербии за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0008"}
+{"query_id": "q_0033", "query": "Покажи областями вклад тарифных классов в выручку в Сербии", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0008"}
+{"query_id": "q_0034", "query": "GMV в Сербии по operational_tariff_class за месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0008"}
+{"query_id": "q_0035", "query": "Из чего складывается выручка такси в Сербии", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0008"}
+{"query_id": "q_0036", "query": "Как менялись активные клиенты в России за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0009"}
+{"query_id": "q_0037", "query": "Линия числа активных клиентов в России по дням", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0009"}
+{"query_id": "q_0038", "query": "Active Riders в России за последний месяц по дням", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0009"}
+{"query_id": "q_0039", "query": "Сколько у нас людей ездило в РФ в последнее время", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0009"}
+{"query_id": "q_0040", "query": "Сравнение средних чеков до и после суржа в Гватемале", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0010"}
+{"query_id": "q_0041", "query": "Покажи линией динамику средних чеков до и после суржа в Гватемале", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0010"}
+{"query_id": "q_0042", "query": "Avg Fare Before и After Surge в Гватемале", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0010"}
+{"query_id": "q_0043", "query": "На сколько повышается чек из-за суржа в Гватемале", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0010"}
+{"query_id": "q_0044", "query": "Недельные изменения GMV в Москве за последние 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0011"}
+{"query_id": "q_0045", "query": "Столбиками покажи WoW GMV в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0011"}
+{"query_id": "q_0046", "query": "WoW % GMV в Москве за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0011"}
+{"query_id": "q_0047", "query": "Как растёт или падает выручка в Москве по неделям", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0011"}
+{"query_id": "q_0048", "query": "Динамика GMV в LatAm за последние полгода", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0012"}
+{"query_id": "q_0049", "query": "Линией покажи помесячную выручку в Латинской Америке", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0012"}
+{"query_id": "q_0050", "query": "Gmv Trips в регионе LatAm за 6 месяцев по месяцам", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0012"}
+{"query_id": "q_0051", "query": "Что с выручкой в Латаме в последнее время", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0012"}
+{"query_id": "q_0052", "query": "Доход водителей в миллионниках России помесячно", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0013"}
+{"query_id": "q_0053", "query": "Столбиками доход водителей по агломерациям-миллионникам РФ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0013"}
+{"query_id": "q_0054", "query": "Driver Income в population_group 1M+ в России помесячно с разбивкой по городам", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0013"}
+{"query_id": "q_0055", "query": "Сколько зарабатывают водители в больших городах", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0013"}
+{"query_id": "q_0056", "query": "Доля детских поездок в Эконом, Комфорт и Комфорт+ в Москве в этом году", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0014"}
+{"query_id": "q_0057", "query": "Линией покажи динамику доли детского по тарифам в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0014"}
+{"query_id": "q_0058", "query": "Доля детского по operational_class_code (Econom, Comfort, Comfort+) в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0014"}
+{"query_id": "q_0059", "query": "Как меняется доля семейных поездок в столице", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0014"}
+{"query_id": "q_0060", "query": "Распределение поездок по тарифам в Москве за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0015"}
+{"query_id": "q_0061", "query": "Покажи 100% областями структуру поездок по тарифным классам в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0015"}
+{"query_id": "q_0062", "query": "Trips по operational_tariff_class в Москве за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0015"}
+{"query_id": "q_0063", "query": "Какие классы тарифов берут в Москве в последнее время", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0015"}
+{"query_id": "q_0064", "query": "Доля брендированных машин в Эконом, Комфорт и Комфорт+ в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0016"}
+{"query_id": "q_0065", "query": "Линия динамики доли оклеенных машин по тарифам в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0016"}
+{"query_id": "q_0066", "query": "Доля оклеенных машин по operational_class_code в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0016"}
+{"query_id": "q_0067", "query": "Как часто встречаются машины с наклейкой в столице", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0016"}
+{"query_id": "q_0068", "query": "Сожжённые заявки в Узбекистане за 3 месяца со столбиками и линией", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0017"}
+{"query_id": "q_0069", "query": "Комбинированный график (столбцы + линия) Requests Burnt в Узбекистане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0017"}
+{"query_id": "q_0070", "query": "Requests Burnt в стране Узбекистан за 3 месяца, столбцы и линия", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0017"}
+{"query_id": "q_0071", "query": "Как ведут себя пропущенные заказы в Узбекистане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0017"}
+{"query_id": "q_0072", "query": "Корпоративные поездки в России с начала года", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0018"}
+{"query_id": "q_0073", "query": "Покажи одним числом сумму корпоративных трипов в РФ YTD", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0018"}
+{"query_id": "q_0074", "query": "Corp Trips в Russia с 1 января по сегодня", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0018"}
+{"query_id": "q_0075", "query": "Сколько B2B-поездок было в РФ в этом году", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0018"}
+{"query_id": "q_0076", "query": "Доля GMV в высоких тарифах в Казани за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0019"}
+{"query_id": "q_0077", "query": "Покажи число — High Tariff Gmv Share по Казани", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0019"}
+{"query_id": "q_0078", "query": "High Tariff Gmv Share в city_name_ru = Казань за месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0019"}
+{"query_id": "q_0079", "query": "Как много премиума в выручке Казани", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0019"}
+{"query_id": "q_0080", "query": "Какая доля поездок в России — межгород", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0020"}
+{"query_id": "q_0081", "query": "Круговая диаграмма доли межгородних поездок в РФ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0020"}
+{"query_id": "q_0082", "query": "Доля Trips для intercity по России в марте", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0020"}
+{"query_id": "q_0083", "query": "Как часто люди ездят между городами", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0020"}
+{"query_id": "q_0084", "query": "Зависимость среднего чека от комиссии водителя в Казани в Эконом за март", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0021"}
+{"query_id": "q_0085", "query": "Столбиками покажи Avg Fare After Surge по бинам комиссии в Казани", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0021"}
+{"query_id": "q_0086", "query": "Avg Fare After Surge по driver_commission_bin для Econom в Казани, март", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0021"}
+{"query_id": "q_0087", "query": "Как чек зависит от комиссии в Казани", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0021"}
+{"query_id": "q_0088", "query": "Распределение поездок в России по значениям эффективного суржа", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0022"}
+{"query_id": "q_0089", "query": "Столбиковая гистограмма Trips по surge_rate_bin в РФ за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0022"}
+{"query_id": "q_0090", "query": "Trips по effective_surge_rate_bin (LT 5) в России за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0022"}
+{"query_id": "q_0091", "query": "Как часто срабатывает повышение в РФ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0022"}
+{"query_id": "q_0092", "query": "Распределение поездок в Москве по сумме чека", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0023"}
+{"query_id": "q_0093", "query": "Столбиками покажи число трипов по бинам GMV в тарифной зоне Москвы", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0023"}
+{"query_id": "q_0094", "query": "Trips по gmv_bin (до 5000) в tariff_geo_zone_code = moscow за 3 месяца", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0023"}
+{"query_id": "q_0095", "query": "На какие суммы чаще всего ездят в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0023"}
+{"query_id": "q_0096", "query": "Доля поездок по фиксу и таксометру по странам", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0024"}
+{"query_id": "q_0097", "query": "100% горизонтальные столбики по способу расчёта по странам", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0024"}
+{"query_id": "q_0098", "query": "Trips по country_name_en и calc_method_code за месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0024"}
+{"query_id": "q_0099", "query": "Где чаще берут фикс, а где таксометр", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0024"}
+{"query_id": "q_0100", "query": "Метрики Ride Hailing по бинам суржа", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0025"}
+{"query_id": "q_0101", "query": "Таблица Trips, Avg Fare Before/After Surge по surge_rate_bin для Ride-Hailing", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0025"}
+{"query_id": "q_0102", "query": "Trips, Avg Fare Before и After Surge по effective_surge_rate_bin для группы Ride-Hailing", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0025"}
+{"query_id": "q_0103", "query": "Как сурж влияет на показатели Ride Hailing", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0025"}
+{"query_id": "q_0104", "query": "Распределение трипов по тарифам в Казани для водителей с максимум Comfort", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0026"}
+{"query_id": "q_0105", "query": "Таблица Trips по operational_class_code для Казани, водители с Comfort и ниже", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0026"}
+{"query_id": "q_0106", "query": "Trips по operational_class_code в Казани, executor_max_operational_class_code = Comfort", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0026"}
+{"query_id": "q_0107", "query": "Какие тарифы доступны и часто берутся водителями Комфорта в Казани", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0026"}
+{"query_id": "q_0108", "query": "Способы оплаты с самой высокой долей отмен пользователями в Азербайджане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0027"}
+{"query_id": "q_0109", "query": "Горизонтальные столбики Rider Cancel Share по типу оплаты в Азербайджане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0027"}
+{"query_id": "q_0110", "query": "Rider Cancel Share по request_payment_type в Азербайджане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0027"}
+{"query_id": "q_0111", "query": "На каких оплатах в Азербайджане люди чаще всего отменяют", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0027"}
+{"query_id": "q_0112", "query": "Распределение заказов Yandex по платформам приложения", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0028"}
+{"query_id": "q_0113", "query": "Таблица заказов Yandex с разбивкой по бренду и app_platform_name", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0028"}
+{"query_id": "q_0114", "query": "% Requests и Requests по brand_name = yandex и app_platform_name", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0028"}
+{"query_id": "q_0115", "query": "Откуда чаще приходят заказы — iOS или Android — для Yandex", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0028"}
+{"query_id": "q_0116", "query": "Сколько клиентов платило наличными в странах СНГ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0029"}
+{"query_id": "q_0117", "query": "Таблица Active Riders по странам СНГ при оплате наличными", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0029"}
+{"query_id": "q_0118", "query": "Active Riders по country_name_ru (РФ, Беларусь, Казахстан...) при fact_payment_type = cash", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0029"}
+{"query_id": "q_0119", "query": "Кто ещё расплачивается кэшом в СНГ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0029"}
+{"query_id": "q_0120", "query": "Активные клиенты по тарифам с MoM-сравнением", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0030"}
+{"query_id": "q_0121", "query": "Таблица: тариф, месяц, активные клиенты, прошлый месяц, изменение MoM", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0030"}
+{"query_id": "q_0122", "query": "Активные клиенты, Активные клиенты предыдущий месяц, Изменение MoM по operational_tariff_class", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0030"}
+{"query_id": "q_0123", "query": "Как меняется аудитория тарифов от месяца к месяцу", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0030"}
+{"query_id": "q_0124", "query": "MoM по GMV в LatAm за май", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0031"}
+{"query_id": "q_0125", "query": "Таблица помесячного GMV и изменения MoM в Latam", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0031"}
+{"query_id": "q_0126", "query": "Gmv Trips, Gmv предыдущий месяц, Изменение MoM в region_name_en = LatAm", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0031"}
+{"query_id": "q_0127", "query": "Как изменилась выручка Латама в мае", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0031"}
+{"query_id": "q_0128", "query": "Недельные поездки по брендам за последние 3 недели", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0032"}
+{"query_id": "q_0129", "query": "Сводная таблица: бренды × недели, поездки и WoW", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0032"}
+{"query_id": "q_0130", "query": "Trips и Изменение MoM процентное по brand_name × Неделя заказа", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0032"}
+{"query_id": "q_0131", "query": "Как бренды двигались по неделям", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0032"}
+{"query_id": "q_0132", "query": "Изменение поездок по способу оплаты по неделям", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0033"}
+{"query_id": "q_0133", "query": "Сводная таблица WoW по типу оплаты", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0033"}
+{"query_id": "q_0134", "query": "Изменение MoM процентное по fact_payment_type × Неделя заказа", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0033"}
+{"query_id": "q_0135", "query": "Куда смещаются способы оплаты по неделям", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0033"}
+{"query_id": "q_0136", "query": "Поездки с эффективным суржем 3 и выше", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0034"}
+{"query_id": "q_0137", "query": "Таблица GMV и средних чеков для трипов с большим суржем", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0034"}
+{"query_id": "q_0138", "query": "Gmv Trips, Avg Fare Before/After Surge при effective_surge_rate >= 3 в Comfort", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0034"}
+{"query_id": "q_0139", "query": "Что с поездками в часы пиков", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0034"}
+{"query_id": "q_0140", "query": "Чек до и после суржа для бина суржа 0.4", "current_dataset_id": "33h8c3n5nbien", "query_type": "T1", "source_recipe_id": "r_0035"}
+{"query_id": "q_0141", "query": "Таблица заказов и их чеков при surge_bin = 0.4", "current_dataset_id": "33h8c3n5nbien", "query_type": "T2", "source_recipe_id": "r_0035"}
+{"query_id": "q_0142", "query": "order_id, effective_surge_rate, Avg Fare Before/After Surge при effective_surge_rate_bin = 0.4", "current_dataset_id": "33h8c3n5nbien", "query_type": "T3", "source_recipe_id": "r_0035"}
+{"query_id": "q_0143", "query": "Что с конкретным бином суржа", "current_dataset_id": "33h8c3n5nbien", "query_type": "T4", "source_recipe_id": "r_0035"}
+{"query_id": "q_0144", "query": "Продажи по годам подачи заявки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0036"}
+{"query_id": "q_0145", "query": "Столбиковая диаграмма выручки по годам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0036"}
+{"query_id": "q_0146", "query": "Продажа в рублях по Год заявки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0036"}
+{"query_id": "q_0147", "query": "Как менялась годовая выручка", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0036"}
+{"query_id": "q_0148", "query": "Выручка по годам с разбивкой по типу доставки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0037"}
+{"query_id": "q_0149", "query": "Столбики выручки по годам, цвет — тип доставки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0037"}
+{"query_id": "q_0150", "query": "Продажа, ₽ по Год заявки и Доставка - тип", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0037"}
+{"query_id": "q_0151", "query": "Какой тип доставки приносит больше за разные годы", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0037"}
+{"query_id": "q_0152", "query": "Продажи в разрезе подкатегорий товара", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0038"}
+{"query_id": "q_0153", "query": "Горизонтальные столбики выручки по подкатегориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0038"}
+{"query_id": "q_0154", "query": "Продажа, ₽ по Продукт - подкатегория", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0038"}
+{"query_id": "q_0155", "query": "Что приносит больше денег среди подкатегорий", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0038"}
+{"query_id": "q_0156", "query": "Доли продаж по подкатегориям с разделением по полу клиента", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0039"}
+{"query_id": "q_0157", "query": "Нормированные горизонтальные столбики выручки по подкатегориям, цвет — пол клиента", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0039"}
+{"query_id": "q_0158", "query": "100% Продажа, ₽ по Продукт - подкатегория с разбивкой по Клиент - пол", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0039"}
+{"query_id": "q_0159", "query": "Кто чаще покупает в каждой подкатегории — мужчины или женщины", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0039"}
+{"query_id": "q_0160", "query": "Доли подкатегорий товара в продажах со временем", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0040"}
+{"query_id": "q_0161", "query": "100% области динамики продаж по подкатегориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0040"}
+{"query_id": "q_0162", "query": "Доля Продажа, ₽ по подкатегориям во времени", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0040"}
+{"query_id": "q_0163", "query": "Как меняется структура продаж по подкатегориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0040"}
+{"query_id": "q_0164", "query": "Сколько всего заявок", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0041"}
+{"query_id": "q_0165", "query": "Кольцевая диаграмма по числу заявок", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0041"}
+{"query_id": "q_0166", "query": "Распределение Число заявок круговой диаграммой", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0041"}
+{"query_id": "q_0167", "query": "Покажи долевую разбивку заявок", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0041"}
+{"query_id": "q_0168", "query": "Динамика продаж по категориям товара", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0042"}
+{"query_id": "q_0169", "query": "Линейный график выручки во времени с разбивкой по категориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0042"}
+{"query_id": "q_0170", "query": "Продажа, ₽ во времени по Продукт - категория", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0042"}
+{"query_id": "q_0171", "query": "Как продаются разные категории товара со временем", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0042"}
+{"query_id": "q_0172", "query": "Продажи по категориям и план на тот же период", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0043"}
+{"query_id": "q_0173", "query": "Комбинированные линии — фактическая выручка по категориям и план", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0043"}
+{"query_id": "q_0174", "query": "Продажа, ₽ по категориям + План по категориям, обе линии", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0043"}
+{"query_id": "q_0175", "query": "Выполняем ли план в разрезе категорий", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0043"}
+{"query_id": "q_0176", "query": "Продажи по категориям и среднее по категориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0044"}
+{"query_id": "q_0177", "query": "Комбинированный график: линия выручки по категориям и линия среднего", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0044"}
+{"query_id": "q_0178", "query": "Продажа, ₽ + Среднее по категориям, две линии", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0044"}
+{"query_id": "q_0179", "query": "Где категории отклоняются от среднего", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0044"}
+{"query_id": "q_0180", "query": "Продажи по категориям столбиками и итоговые продажи со скидками линией", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0045"}
+{"query_id": "q_0181", "query": "Комбо: столбики по категориям + линия Продажи + скидки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0045"}
+{"query_id": "q_0182", "query": "Продажа, ₽ столбиками по категориям + Продажи + скидки линией", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0045"}
+{"query_id": "q_0183", "query": "Как скидки влияют на общую выручку по категориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0045"}
+{"query_id": "q_0184", "query": "Средняя продажа", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0046"}
+{"query_id": "q_0185", "query": "Покажи среднюю продажу одним числом", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0046"}
+{"query_id": "q_0186", "query": "Метрика Средняя продажа", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0046"}
+{"query_id": "q_0187", "query": "Сколько в среднем стоит покупка", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0046"}
+{"query_id": "q_0188", "query": "Выручка с детализацией", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0047"}
+{"query_id": "q_0189", "query": "Столбиковая диаграмма продаж по периодам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0047"}
+{"query_id": "q_0190", "query": "Продажа, ₽ во времени за 2021-08-23 — 2022-08-22", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0047"}
+{"query_id": "q_0191", "query": "Сплит выручки за период", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0047"}
+{"query_id": "q_0192", "query": "Продажи по иерархии товара", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0048"}
+{"query_id": "q_0193", "query": "Таблица: подкатегория, категория, бренд, выручка, заявки, клиенты", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0048"}
+{"query_id": "q_0194", "query": "Продажа, ₽, Число заявок, Число клиентов в разрезе подкатегория / категория / бренд", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0048"}
+{"query_id": "q_0195", "query": "Что и кому продаётся в иерархии товара", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0048"}
+{"query_id": "q_0196", "query": "Большая таблица продаж с фиксированным первым столбцом", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0049"}
+{"query_id": "q_0197", "query": "Таблица товара, магазина, продаж, клиентов и доставки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0049"}
+{"query_id": "q_0198", "query": "Подкатегория, категория, бренд, адрес магазина, выручка, заявки, клиенты, статус, округ — таблицей", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0049"}
+{"query_id": "q_0199", "query": "Полный срез продаж по нескольким измерениям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0049"}
+{"query_id": "q_0200", "query": "Сводная: продажи по типу доставки и году × категории и бренду", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0050"}
+{"query_id": "q_0201", "query": "Pivot-таблица выручки: тип доставки и год по столбцам, категория и бренд по строкам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0050"}
+{"query_id": "q_0202", "query": "Продажа, ₽ по Доставка - тип × Год заявки vs Продукт - категория × Продукт - бренд", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0050"}
+{"query_id": "q_0203", "query": "Где продаём через какую доставку и в каком году", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0050"}
+{"query_id": "q_0204", "query": "Сводная по категориям и брендам помесячно", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0051"}
+{"query_id": "q_0205", "query": "Pivot выручки: Месяц заявки × Категория и бренд продукта", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0051"}
+{"query_id": "q_0206", "query": "Продажа, ₽ по Месяц заявки × Продукт - категория, бренд", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0051"}
+{"query_id": "q_0207", "query": "Как идут продажи категорий и брендов помесячно", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0051"}
+{"query_id": "q_0208", "query": "Число клиентов и средний чек по магазинам и подкатегориям (большая)", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0052"}
+{"query_id": "q_0209", "query": "Pivot магазин × подкатегория с метриками клиентов и среднего чека", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0052"}
+{"query_id": "q_0210", "query": "Число клиентов и Средний чек по Магазин × Продукт - подкатегория", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0052"}
+{"query_id": "q_0211", "query": "Где какие клиенты в каких магазинах", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0052"}
+{"query_id": "q_0212", "query": "Число клиентов и средний чек по магазинам и подкатегориям (средняя)", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0053"}
+{"query_id": "q_0213", "query": "Сводная таблица среднего размера: магазины × подкатегории, клиенты и средний чек", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0053"}
+{"query_id": "q_0214", "query": "Число клиентов и Средний чек по Магазин × Продукт - подкатегория", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0053"}
+{"query_id": "q_0215", "query": "Как магазины расходятся по среднему чеку и числу клиентов", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0053"}
+{"query_id": "q_0216", "query": "Число клиентов и средний чек по магазинам и подкатегориям (компактная)", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T1", "source_recipe_id": "r_0054"}
+{"query_id": "q_0217", "query": "Маленькая pivot-таблица: магазины × подкатегории", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T2", "source_recipe_id": "r_0054"}
+{"query_id": "q_0218", "query": "Число клиентов и Средний чек в малой сводной по магазинам и подкатегориям", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T3", "source_recipe_id": "r_0054"}
+{"query_id": "q_0219", "query": "Сжатый срез клиентов и среднего чека по магазинам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T4", "source_recipe_id": "r_0054"}
+{"query_id": "q_0220", "query": "Ошибки сервисов в разрезе экшенов", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0055"}
+{"query_id": "q_0221", "query": "Столбики ошибок по времени с цветом по сервису+экшену", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0055"}
+{"query_id": "q_0222", "query": "Errors во времени по service_with_action, исключая fetchData/getDistinctsApiV2/getPreview", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0055"}
+{"query_id": "q_0223", "query": "В каких экшенах больше всего падений", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0055"}
+{"query_id": "q_0224", "query": "Распределение ошибок по статус-кодам", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0056"}
+{"query_id": "q_0225", "query": "Столбики ошибок по времени, цвет — responseStatus", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0056"}
+{"query_id": "q_0226", "query": "Errors во времени, разбитые по responseStatus за неделю", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0056"}
+{"query_id": "q_0227", "query": "Какие коды ошибок чаще всего возвращает сервис", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0056"}
+{"query_id": "q_0228", "query": "Все запросы по экшенам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0057"}
+{"query_id": "q_0229", "query": "Столбики числа запросов с цветом по action", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0057"}
+{"query_id": "q_0230", "query": "Requests за неделю по action, исключая self", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0057"}
+{"query_id": "q_0231", "query": "Что чаще всего вызывают в сервисе", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0057"}
+{"query_id": "q_0232", "query": "Ошибки по хостам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0058"}
+{"query_id": "q_0233", "query": "Столбики ошибок с цветом по host", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0058"}
+{"query_id": "q_0234", "query": "Errors за неделю по host", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0058"}
+{"query_id": "q_0235", "query": "Какие машины чаще роняют запросы", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0058"}
+{"query_id": "q_0236", "query": "Ошибки только в data-экшенах", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0059"}
+{"query_id": "q_0237", "query": "Столбики ошибок во времени, цвет по service+action, только data-экшены", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0059"}
+{"query_id": "q_0238", "query": "Errors по service_with_action, action ∈ {fetchData, getDistinctsApiV2, getPreview}", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0059"}
+{"query_id": "q_0239", "query": "Что с падениями в data-плоскости", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0059"}
+{"query_id": "q_0240", "query": "Логи ошибок control plane в проде", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0060"}
+{"query_id": "q_0241", "query": "Таблица ошибок с datetime, service, action, traceId, zone, host, request id для control plane", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0060"}
+{"query_id": "q_0242", "query": "Логи production-ошибок control plane: время, сервис, экшен, trace, request id", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0060"}
+{"query_id": "q_0243", "query": "Что упало в control plane прод", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0060"}
+{"query_id": "q_0244", "query": "Логи ошибок data plane в проде", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0061"}
+{"query_id": "q_0245", "query": "Таблица ошибок data plane: datetime, service, action, traceId, request id, host", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0061"}
+{"query_id": "q_0246", "query": "Логи production-ошибок data plane", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0061"}
+{"query_id": "q_0247", "query": "Что упало в data plane прод", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0061"}
+{"query_id": "q_0248", "query": "Медианная латентность по экшенам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0062"}
+{"query_id": "q_0249", "query": "Столбики p50 latency с цветом по action", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0062"}
+{"query_id": "q_0250", "query": "request_time_p50 за неделю по action", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0062"}
+{"query_id": "q_0251", "query": "Где скорость отклика просела", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0062"}
+{"query_id": "q_0252", "query": "Перцентили задержки p50/p75/p90 во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0063"}
+{"query_id": "q_0253", "query": "Линии трёх перцентилей запроса", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0063"}
+{"query_id": "q_0254", "query": "request_time_p50, request_time_p75, request_time_p90 во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0063"}
+{"query_id": "q_0255", "query": "Как двигается хвост латентности", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0063"}
+{"query_id": "q_0256", "query": "Распределение времени ответа по перцентилям", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0064"}
+{"query_id": "q_0257", "query": "Области с тремя перцентилями латентности", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0064"}
+{"query_id": "q_0258", "query": "request_time_p50/p75/p90 как area chart за неделю", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0064"}
+{"query_id": "q_0259", "query": "Структура задержек запросов", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0064"}
+{"query_id": "q_0260", "query": "5xx-ошибки по сервисам", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0065"}
+{"query_id": "q_0261", "query": "Столбики ошибок 500–504 во времени с цветом по сервису", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0065"}
+{"query_id": "q_0262", "query": "Errors при responseStatus ∈ {500..504} по service", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0065"}
+{"query_id": "q_0263", "query": "Кто из сервисов чаще всего возвращает 500", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0065"}
+{"query_id": "q_0264", "query": "500-е в проде BI", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T1", "source_recipe_id": "r_0066"}
+{"query_id": "q_0265", "query": "Столбики 500-х ошибок BI по сервисам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T2", "source_recipe_id": "r_0066"}
+{"query_id": "q_0266", "query": "Errors при responseStatus = 500 по service в int prod BI", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T3", "source_recipe_id": "r_0066"}
+{"query_id": "q_0267", "query": "Что роняет именно 500 в BI", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T4", "source_recipe_id": "r_0066"}
+{"query_id": "q_0268", "query": "Как менялся средний рейтинг фильмов с годами", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T5", "source_recipe_id": "r_0001"}
+{"query_id": "q_0269", "query": "В каком году вышло больше всего комедийных фильмов", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T5", "source_recipe_id": "r_0002"}
+{"query_id": "q_0270", "query": "Топ драматических сериалов 90-х", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T5", "source_recipe_id": "r_0000"}
+{"query_id": "q_0271", "query": "Сколько сериалов вышло в 2025 по жанрам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T5", "source_recipe_id": "r_0006"}
+{"query_id": "q_0272", "query": "Сравни в динамике долю детского в Эконом, Комфорт и Комфорт+ в Питере", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0014"}
+{"query_id": "q_0273", "query": "Доля оклеенных машин в тарифах Эконом, Комфорт, Комфорт+ в Санкт-Петербурге", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0016"}
+{"query_id": "q_0274", "query": "Зависимость среднего чека от комиссии водителя в Москве в Эконом за март", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0021"}
+{"query_id": "q_0275", "query": "WoW Active Riders за последние 3 месяца в динамике в Москве", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0011"}
+{"query_id": "q_0276", "query": "Доля GMV в повышенных классах в Москве за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0019"}
+{"query_id": "q_0277", "query": "Личные поездки в России с начала года", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0018"}
+{"query_id": "q_0278", "query": "Сколько клиентов платило картой в странах СНГ", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0029"}
+{"query_id": "q_0279", "query": "Динамика активных водителей в России по дням за последний месяц", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0009"}
+{"query_id": "q_0280", "query": "Топ типов оплаты по водительским отменам в Азербайджане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T5", "source_recipe_id": "r_0027"}
+{"query_id": "q_0281", "query": "Продажи по месяцам подачи заявки", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T5", "source_recipe_id": "r_0036"}
+{"query_id": "q_0282", "query": "Продажи в иерархии магазинов: округ, тип, адрес", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T5", "source_recipe_id": "r_0048"}
+{"query_id": "q_0283", "query": "Сводная: продажи по типу доставки и году × магазинам и брендам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T5", "source_recipe_id": "r_0050"}
+{"query_id": "q_0284", "query": "Ошибки по экшенам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T5", "source_recipe_id": "r_0058"}
+{"query_id": "q_0285", "query": "Медианная латентность по сервисам во времени", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T5", "source_recipe_id": "r_0062"}
+{"query_id": "q_0286", "query": "5xx-ошибки по экшенам", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T5", "source_recipe_id": "r_0065"}
+{"query_id": "q_0287", "query": "Покажи общее число фильмов одной цифрой", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0046"}
+{"query_id": "q_0288", "query": "Средний рейтинг фильмов одним числом", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0018"}
+{"query_id": "q_0289", "query": "Сводная таблица фильмов по жанрам и годам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0050"}
+{"query_id": "q_0290", "query": "Доли стран в выпуске фильмов горизонтальными процентами", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0024"}
+{"query_id": "q_0291", "query": "Структура числа фильмов по типу областями во времени", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0008"}
+{"query_id": "q_0292", "query": "Покажи кругом долю запросов по сервисам", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0006"}
+{"query_id": "q_0293", "query": "Доля ошибок 5xx круговой диаграммой", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0020"}
+{"query_id": "q_0294", "query": "Кольцевая диаграмма по числу запросов", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0041"}
+{"query_id": "q_0295", "query": "Сводная таблица: сервисы × экшены, число ошибок", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0050"}
+{"query_id": "q_0296", "query": "Сводная по неделям × сервисам с числом запросов", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0032"}
+{"query_id": "q_0297", "query": "Топ хостов по числу ошибок горизонтальными столбиками", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0027"}
+{"query_id": "q_0298", "query": "Распределение продаж по бинам суммы чека", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T6", "source_recipe_id": "r_0022"}
+{"query_id": "q_0299", "query": "Распределение заявок по бинам выручки в Москве", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T6", "source_recipe_id": "r_0023"}
+{"query_id": "q_0300", "query": "Динамика доли типов доставки 100% столбиками", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T6", "source_recipe_id": "r_0007"}
+{"query_id": "q_0301", "query": "Доли типов кино во времени 100% областями", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0015"}
+{"query_id": "q_0302", "query": "Доля жанров фильмов 100% горизонтальными столбиками", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0024"}
+{"query_id": "q_0303", "query": "Доли сервисов в общем числе запросов 100% областями", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0015"}
+{"query_id": "q_0304", "query": "Таблица: жанр, число фильмов, число фильмов в прошлом году, изменение MoM", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T6", "source_recipe_id": "r_0030"}
+{"query_id": "q_0305", "query": "Таблица: сервис, число ошибок, число ошибок в прошлом месяце, изменение MoM", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T6", "source_recipe_id": "r_0030"}
+{"query_id": "q_0306", "query": "Прогноз погоды в Москве на завтра", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0307", "query": "Курс доллара к рублю за последние полгода", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0308", "query": "Рецепт борща с пампушками", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0309", "query": "Расписание электричек Ярославского направления", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0310", "query": "Как настроить Wi-Fi роутер TP-Link", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0311", "query": "Биржевые котировки Apple за год", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0312", "query": "Численность населения Москвы по округам", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0313", "query": "График солнечной активности", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0314", "query": "Топ книг 2025 года по продажам", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0315", "query": "Состав сборной России по футболу", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0316", "query": "Самый популярный язык программирования", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0317", "query": "Список пермских перевалов туристических", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0318", "query": "Размер штрафа за превышение скорости", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0319", "query": "Сравнение iPhone 15 и iPhone 16", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0320", "query": "Что приготовить из курицы", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0321", "query": "Расстояние от Земли до Марса", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0322", "query": "Средняя зарплата дата-сайентиста в России", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0323", "query": "Какой подарок выбрать на день рождения", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0324", "query": "ВВП Германии в 2024 году", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0325", "query": "Длительность беременности у слона", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0326", "query": "Что такое квантовая запутанность", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0327", "query": "Сравнение iOS и Android", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0328", "query": "Почему небо голубое", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0329", "query": "Биография Льва Толстого", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}
+{"query_id": "q_0330", "query": "Цена квартиры в Сочи у моря", "current_dataset_id": "omhpbh1k83ao8", "query_type": "T7"}
+{"query_id": "q_0331", "query": "Сколько калорий в банане", "current_dataset_id": "33h8c3n5nbien", "query_type": "T7"}
+{"query_id": "q_0332", "query": "Расписание матчей чемпионата мира", "current_dataset_id": "b60rhj4luj0y3", "query_type": "T7"}
+{"query_id": "q_0333", "query": "Стоимость биткоина сегодня", "current_dataset_id": "pzf0mu9kgqz4k", "query_type": "T7"}

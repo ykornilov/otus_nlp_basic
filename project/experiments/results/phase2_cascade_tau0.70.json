@@ -1,0 +1,37 @@
+{
+  "exp_id": "phase2_cascade_tau0.70",
+  "phase": 2,
+  "config": {
+    "router": "cascade",
+    "tau": 0.7,
+    "k_min": 3,
+    "k_final": 5,
+    "model": "Qodo/Qodo-Embed-1-1.5B",
+    "strategy": "S4"
+  },
+  "metrics": {
+    "recall@5_template_macro": 0.4112576123545739,
+    "recall@5_template_micro": 0.41188920012449426,
+    "recall@5_template_per_dataset": {
+      "omhpbh1k83ao8": 0.29404761904761906,
+      "33h8c3n5nbien": 0.3308190476190476,
+      "b60rhj4luj0y3": 0.5536585365853659,
+      "pzf0mu9kgqz4k": 0.4665052461662631
+    },
+    "n_queries_template": 306,
+    "recall@5_strict_macro": 0.8686018183644766,
+    "recall@5_strict_micro": 0.9059233449477352,
+    "recall@5_strict_per_dataset": {
+      "omhpbh1k83ao8": 0.8055555555555556,
+      "33h8c3n5nbien": 1.0,
+      "b60rhj4luj0y3": 0.9367088607594937,
+      "pzf0mu9kgqz4k": 0.7321428571428571
+    },
+    "n_queries_strict": 287,
+    "routing_accuracy": 0.7365269461077845,
+    "fallback_rate": 0.33532934131736525
+  },
+  "timestamp": "2026-05-10T09:55:26.372522+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}
