@@ -1,0 +1,43 @@
+{
+  "exp_id": "phase1_5_S1_Qodo-Embed-1-1.5B",
+  "phase": 1.5,
+  "config": {
+    "strategy": "S1",
+    "model": "Qodo/Qodo-Embed-1-1.5B",
+    "alpha": null,
+    "format": null,
+    "k_top": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.5361076038159371,
+      "recall@5_template_micro": 0.38927469135802467,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.21450617283950618,
+        "b60rhj4luj0y3": 0.2916666666666667,
+        "pzf0mu9kgqz4k": 0.6382575757575758
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.3966049382716049,
+        "T2": 0.4243827160493827,
+        "T3": 0.39197530864197533,
+        "T4": 0.3441358024691358
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.28308270676691727,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.19987468671679198,
+      "T6_recall@5_strict_full": 0.3684210526315789,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T13:45:51.562513+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

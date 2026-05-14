@@ -1,0 +1,36 @@
+{
+  "exp_id": "phase2_mix_k1_4_k2_1",
+  "phase": 2,
+  "config": {
+    "router": "mix",
+    "k1": 4,
+    "k2": 1,
+    "k_final": 5,
+    "model": "Qodo/Qodo-Embed-1-1.5B",
+    "strategy": "S4"
+  },
+  "metrics": {
+    "recall@5_template_macro": 0.41207502682139413,
+    "recall@5_template_micro": 0.4097183317771553,
+    "recall@5_template_per_dataset": {
+      "omhpbh1k83ao8": 0.3300595238095238,
+      "33h8c3n5nbien": 0.33017142857142856,
+      "b60rhj4luj0y3": 0.5479965156794425,
+      "pzf0mu9kgqz4k": 0.4400726392251816
+    },
+    "n_queries_template": 306,
+    "recall@5_strict_macro": 0.8772306272647281,
+    "recall@5_strict_micro": 0.9059233449477352,
+    "recall@5_strict_per_dataset": {
+      "omhpbh1k83ao8": 0.8472222222222222,
+      "33h8c3n5nbien": 0.9913793103448276,
+      "b60rhj4luj0y3": 0.9113924050632911,
+      "pzf0mu9kgqz4k": 0.7589285714285714
+    },
+    "n_queries_strict": 287,
+    "routing_accuracy": null
+  },
+  "timestamp": "2026-05-10T09:55:26.426350+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

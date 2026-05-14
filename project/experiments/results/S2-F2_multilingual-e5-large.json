@@ -1,0 +1,75 @@
+{
+  "exp_id": "S2-F2_multilingual-e5-large",
+  "phase": 1,
+  "config": {
+    "strategy": "S2-F2",
+    "model": "intfloat/multilingual-e5-large",
+    "alpha": null,
+    "format": "F2",
+    "k_top": 10
+  },
+  "metrics": {
+    "recall@1_template_macro": 0.3660749140162394,
+    "recall@1_template_micro": 0.3486406327236777,
+    "recall@1_template_per_dataset": {
+      "omhpbh1k83ao8": 0.5294117647058824,
+      "33h8c3n5nbien": 0.3329714285714286,
+      "b60rhj4luj0y3": 0.37278481012658227,
+      "pzf0mu9kgqz4k": 0.22913165266106442
+    },
+    "recall@1_template_cross_dataset": 0.047619047619047616,
+    "recall@1_strict_macro": 0.6715806218131536,
+    "recall@1_strict_micro": 0.6847014925373134,
+    "recall@1_strict_per_dataset": {
+      "omhpbh1k83ao8": 0.8035714285714286,
+      "33h8c3n5nbien": 0.8706896551724138,
+      "b60rhj4luj0y3": 0.40789473684210525,
+      "pzf0mu9kgqz4k": 0.6041666666666666
+    },
+    "recall@1_strict_cross_dataset": 0.05263157894736842,
+    "recall@5_template_macro": 0.7124312378115804,
+    "recall@5_template_micro": 0.6419261822376009,
+    "recall@5_template_per_dataset": {
+      "omhpbh1k83ao8": 0.9656862745098039,
+      "33h8c3n5nbien": 0.5028380952380952,
+      "b60rhj4luj0y3": 0.6924050632911393,
+      "pzf0mu9kgqz4k": 0.6887955182072829
+    },
+    "n_queries_with_template_in_dataset": 289,
+    "recall@5_template_cross_dataset": 0.10034013605442177,
+    "n_queries_t6_with_template_cross": 35,
+    "recall@5_strict_macro": 0.9083032203353211,
+    "recall@5_strict_micro": 0.9129353233830846,
+    "recall@5_strict_per_dataset": {
+      "omhpbh1k83ao8": 0.9821428571428571,
+      "33h8c3n5nbien": 0.9827586206896551,
+      "b60rhj4luj0y3": 0.8245614035087719,
+      "pzf0mu9kgqz4k": 0.84375
+    },
+    "recall@5_strict_cross_dataset": 0.3157894736842105,
+    "recall@10_template_macro": 0.8540866716306776,
+    "recall@10_template_micro": 0.7820398747734388,
+    "recall@10_template_per_dataset": {
+      "omhpbh1k83ao8": 1.0,
+      "33h8c3n5nbien": 0.614247619047619,
+      "b60rhj4luj0y3": 0.8329113924050633,
+      "pzf0mu9kgqz4k": 0.969187675070028
+    },
+    "recall@10_template_cross_dataset": 0.12374149659863945,
+    "recall@10_strict_macro": 0.9868421052631579,
+    "recall@10_strict_micro": 0.9850746268656716,
+    "recall@10_strict_per_dataset": {
+      "omhpbh1k83ao8": 1.0,
+      "33h8c3n5nbien": 1.0,
+      "b60rhj4luj0y3": 0.9473684210526315,
+      "pzf0mu9kgqz4k": 1.0
+    },
+    "recall@10_strict_cross_dataset": 0.42105263157894735,
+    "latency_ms_p50": 0.025033950805664062,
+    "embed_corpus_seconds": 2.47,
+    "embed_queries_seconds": 0.02
+  },
+  "timestamp": "2026-05-10T00:08:11.949913+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

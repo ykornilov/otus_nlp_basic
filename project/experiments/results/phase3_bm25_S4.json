@@ -1,0 +1,42 @@
+{
+  "exp_id": "phase3_bm25_S4",
+  "phase": 3,
+  "config": {
+    "approach": "bm25",
+    "text_strategy": "S4",
+    "tokenizer": "regex_word_lowercase",
+    "k_final": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.6387485970819304,
+      "recall@5_template_micro": 0.4845679012345679,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.25385802469135804,
+        "b60rhj4luj0y3": 0.6534090909090909,
+        "pzf0mu9kgqz4k": 0.6477272727272727
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.46759259259259256,
+        "T2": 0.5324074074074074,
+        "T3": 0.5216049382716049,
+        "T4": 0.4166666666666667
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.20037593984962404,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.2543859649122807,
+      "T6_recall@5_strict_full": 0.42105263157894735,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T14:07:57.801365+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

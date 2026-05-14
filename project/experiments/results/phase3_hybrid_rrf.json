@@ -1,0 +1,47 @@
+{
+  "exp_id": "phase3_hybrid_rrf",
+  "phase": 3,
+  "config": {
+    "approach": "hybrid_rrf",
+    "text_strategy": "S4",
+    "tokenizer": "regex_word_lowercase",
+    "dense_model": "Qodo/Qodo-Embed-1-1.5B",
+    "dense_strategy": "S4",
+    "bm25_top_k": 20,
+    "dense_top_k": 20,
+    "rrf_k_constant": 60,
+    "k_final": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.6397657126823794,
+      "recall@5_template_micro": 0.47762345679012347,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.22762345679012344,
+        "b60rhj4luj0y3": 0.6534090909090909,
+        "pzf0mu9kgqz4k": 0.678030303030303
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.4984567901234568,
+        "T2": 0.5231481481481481,
+        "T3": 0.5,
+        "T4": 0.3888888888888889
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.23045112781954885,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.23684210526315788,
+      "T6_recall@5_strict_full": 0.47368421052631576,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T14:07:57.846683+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

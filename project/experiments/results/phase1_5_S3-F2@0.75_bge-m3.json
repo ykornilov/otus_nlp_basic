@@ -1,0 +1,43 @@
+{
+  "exp_id": "phase1_5_S3-F2@0.75_bge-m3",
+  "phase": 1.5,
+  "config": {
+    "strategy": "S3-F2@0.75",
+    "model": "BAAI/bge-m3",
+    "alpha": 0.75,
+    "format": "F2",
+    "k_top": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.5699705387205387,
+      "recall@5_template_micro": 0.43287037037037035,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.2685185185185185,
+        "b60rhj4luj0y3": 0.34469696969696967,
+        "pzf0mu9kgqz4k": 0.6666666666666666
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.42746913580246915,
+        "T2": 0.5077160493827161,
+        "T3": 0.4305555555555555,
+        "T4": 0.36574074074074076
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.3006265664160401,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.18421052631578946,
+      "T6_recall@5_strict_full": 0.2631578947368421,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T13:45:51.509422+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}

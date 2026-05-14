@@ -1,0 +1,43 @@
+{
+  "exp_id": "phase1_5_S2-F2_multilingual-e5-large",
+  "phase": 1.5,
+  "config": {
+    "strategy": "S2-F2",
+    "model": "intfloat/multilingual-e5-large",
+    "alpha": null,
+    "format": "F2",
+    "k_top": 5,
+    "retrieval_mode": "in_dataset_only",
+    "holdout": "leave_one_out"
+  },
+  "metrics": {
+    "heldout": {
+      "recall@5_template_macro": 0.6127244668911336,
+      "recall@5_template_micro": 0.470679012345679,
+      "recall@5_template_per_dataset": {
+        "omhpbh1k83ao8": 1.0,
+        "33h8c3n5nbien": 0.2785493827160494,
+        "b60rhj4luj0y3": 0.4659090909090909,
+        "pzf0mu9kgqz4k": 0.7064393939393939
+      },
+      "recall@5_template_per_query_type": {
+        "T1": 0.4567901234567901,
+        "T2": 0.5015432098765432,
+        "T3": 0.46141975308641975,
+        "T4": 0.46296296296296297
+      },
+      "n_queries_evaluated": 216,
+      "n_queries_skipped_no_relevant": 52
+    },
+    "sidecar": {
+      "T5_recall@5_template": 0.3181704260651629,
+      "T5_n": 19,
+      "T6_recall@5_template_full": 0.20739348370927319,
+      "T6_recall@5_strict_full": 0.3157894736842105,
+      "T6_n": 19
+    }
+  },
+  "timestamp": "2026-05-11T13:45:51.046610+00:00",
+  "corpus_size": 67,
+  "eval_size": 334
+}
